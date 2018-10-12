@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-01T03:34:40.456Z</updated>
+  <updated>2018-10-12T04:02:13.286Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试经验#1</title>
+    <link href="http://yoursite.com/2018/10/12/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C-1/"/>
+    <id>http://yoursite.com/2018/10/12/面试经验-1/</id>
+    <published>2018-10-12T03:40:17.000Z</published>
+    <updated>2018-10-12T04:02:13.286Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;1 着装，干净整洁，胡须头发。&lt;br&gt;2 提前到达，面试不需要提前达到，但是一些公司位置诡异，交通问题也要考虑。&lt;br&gt;3 要有礼貌，前台，hr，面试官&lt;br&gt;4 面试官介绍的时候要认真听，问已经告诉你的事情很糟糕。&lt;br&gt;5
+        
+      
+    
+    </summary>
+    
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
