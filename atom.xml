@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-10-12T04:09:06.502Z</updated>
+  <updated>2018-11-08T03:37:47.640Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>代码动态演示工具</title>
+    <link href="http://yoursite.com/2018/11/08/%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%80%81%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/"/>
+    <id>http://yoursite.com/2018/11/08/代码动态演示工具/</id>
+    <published>2018-11-08T03:28:41.000Z</published>
+    <updated>2018-11-08T03:37:47.640Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;代码动态演示工具，对命令行逐行表现力很好。&lt;br&gt;&lt;a href=&quot;https://glorious.codes/demo&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
