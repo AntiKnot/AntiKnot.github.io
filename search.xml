@@ -3,6 +3,17 @@
   
     
     <entry>
+      <title>ubuntu查看自己的外网IP</title>
+      <link href="/2018/12/14/ubuntu%E6%9F%A5%E7%9C%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%96%E7%BD%91IP/"/>
+      <url>/2018/12/14/ubuntu%E6%9F%A5%E7%9C%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%96%E7%BD%91IP/</url>
+      
+        <content type="html"><![CDATA[<h1 id="ubuntu查看自己的外网IP"><a href="#ubuntu查看自己的外网IP" class="headerlink" title="ubuntu查看自己的外网IP"></a>ubuntu查看自己的外网IP</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install curl</span><br><span class="line">curl ifconfig.me</span><br></pre></td></tr></table></figure><p><a href="https://ifconfig.me/" target="_blank" rel="noopener">https://ifconfig.me/</a> 是一个查看自身IP Address的站点，还提供了xml和json的响应格式</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
       <title>代码动态演示工具</title>
       <link href="/2018/11/08/%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%80%81%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/"/>
       <url>/2018/11/08/%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%80%81%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/</url>
