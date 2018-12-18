@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-18T15:59:59.886Z</updated>
+  <updated>2018-12-18T16:03:42.752Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>基础技术栈</title>
-    <link href="http://yoursite.com/2018/12/18/%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-    <id>http://yoursite.com/2018/12/18/基础技术栈/</id>
-    <published>2018-12-18T15:02:52.386Z</published>
-    <updated>2018-12-18T15:59:59.886Z</updated>
+    <title>学习摘要 像素的一生 Life of Pixel</title>
+    <link href="http://yoursite.com/2018/12/18/%E5%AD%A6%E4%B9%A0%E6%91%98%E8%A6%81%20%E5%83%8F%E7%B4%A0%E7%9A%84%E4%B8%80%E7%94%9F%20Life%20of%20Pixel/"/>
+    <id>http://yoursite.com/2018/12/18/学习摘要 像素的一生 Life of Pixel/</id>
+    <published>2018-12-18T15:05:59.628Z</published>
+    <updated>2018-12-18T16:03:42.752Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,29 @@
       
         
         
-          &lt;h1 id=&quot;基础技术栈&quot;&gt;&lt;a href=&quot;#基础技术栈&quot; class=&quot;headerlink&quot; title=&quot;基础技术栈&quot;&gt;&lt;/a&gt;基础技术栈&lt;/h1&gt;&lt;p&gt;编程语言&lt;br&gt;Python &lt;a
+          &lt;h1 id=&quot;像素的一生-Life-of-Pixel&quot;&gt;&lt;a href=&quot;#像素的一生-Life-of-Pixel&quot; class=&quot;headerlink&quot; title=&quot;像素的一生 Life of Pixel&quot;&gt;&lt;/a&gt;像素的一生 Life of
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>基础技术栈</title>
+    <link href="http://yoursite.com/2018/12/18/%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    <id>http://yoursite.com/2018/12/18/基础技术栈/</id>
+    <published>2018-12-18T15:02:52.386Z</published>
+    <updated>2018-12-18T16:04:41.661Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;基础技术栈&quot;&gt;&lt;a href=&quot;#基础技术栈&quot; class=&quot;headerlink&quot; title=&quot;基础技术栈&quot;&gt;&lt;/a&gt;基础技术栈&lt;/h1&gt;&lt;h3 id=&quot;编程语言&quot;&gt;&lt;a href=&quot;#编程语言&quot; class=&quot;headerlink&quot;
         
       
     
