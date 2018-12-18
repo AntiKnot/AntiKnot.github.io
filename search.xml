@@ -3,6 +3,28 @@
   
     
     <entry>
+      <title>基础技术栈</title>
+      <link href="/2018/12/18/%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+      <url>/2018/12/18/%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%E6%A0%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基础技术栈"><a href="#基础技术栈" class="headerlink" title="基础技术栈"></a>基础技术栈</h1><p>编程语言<br>Python <a href="https://www.coursera.org/learn/hipython" target="_blank" rel="noopener">https://www.coursera.org/learn/hipython</a><br>涉及requests,numpy,pandas</p><p>代码规范<br>Python <a href="https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/" target="_blank" rel="noopener">https://zh-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/python_style_rules/</a></p><p>正则<br>Python正则 <a href="https://pymotw.com/3//re/index.html" target="_blank" rel="noopener">https://pymotw.com/3//re/index.html</a><br>可视化正则工具 <a href="https://regexper.com/" target="_blank" rel="noopener">https://regexper.com/</a></p><p>数据库<br>Mongo <a href="https://www.coursera.org/learn/introduction-mongodb" target="_blank" rel="noopener">https://www.coursera.org/learn/introduction-mongodb</a><br>Mongo操作数据库的基本语法</p><p>数据库设计<br>MySQL <a href="https://www.imooc.com/learn/117" target="_blank" rel="noopener">https://www.imooc.com/learn/117</a><br>因为我们用的是NoSQL，所以只是了解一下表设计的流程</p><p>前端基础<br>JS HTML CSS <a href="https://www.coursera.org/learn/duke-programming-web" target="_blank" rel="noopener">https://www.coursera.org/learn/duke-programming-web</a><br><del>VUE(framework) + Element(UI) + Axios(httpRequest) 数据展示项目</del><br><del>VUE-router <a href="https://router.vuejs.org/zh/" target="_blank" rel="noopener">https://router.vuejs.org/zh/</a></del><br><del>TypeScript <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener">https://www.typescriptlang.org/</a></del></p><p>后端框架<br>Flask/Tornado/Django<br>Django <a href="https://simpleisbetterthancomplex.com/" target="_blank" rel="noopener">https://simpleisbetterthancomplex.com/</a><br>DRF <a href="https://www.django-rest-framework.org/" target="_blank" rel="noopener">https://www.django-rest-framework.org/</a><br>django-extensions <a href="https://github.com/django-extensions/django-extensions" target="_blank" rel="noopener">https://github.com/django-extensions/django-extensions</a></p><p>API 开发工具<br>Postman <a href="https://www.getpostman.com/" target="_blank" rel="noopener">https://www.getpostman.com/</a></p><p><del>API 规范</del><br><del>检查表 <a href="https://devchecklists.com/python-api-checklist/" target="_blank" rel="noopener">https://devchecklists.com/python-api-checklist/</a></del></p><p><del>压力测试</del><br><del>测试工具 <a href="https://github.com/locustio/locust" target="_blank" rel="noopener">https://github.com/locustio/locust</a></del></p><p>HTTP抓包与调试<br>Fiddler <a href="https://www.telerik.com/fiddler" target="_blank" rel="noopener">https://www.telerik.com/fiddler</a><br>Chrome / Firefox</p><p>文档编写<br>Markdown <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Markdown</a></p><p>版本控制<br>手册 <a href="http://rogerdudler.github.io/git-guide/" target="_blank" rel="noopener">http://rogerdudler.github.io/git-guide/</a><br>流程 <a href="https://guides.github.com/introduction/flow/" target="_blank" rel="noopener">https://guides.github.com/introduction/flow/</a><br>分支规则 <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank" rel="noopener">http://nvie.com/posts/a-successful-git-branching-model/</a><br>工具 <a href="https://www.sourcetreeapp.com/" target="_blank" rel="noopener">https://www.sourcetreeapp.com/</a></p><p><del>容器</del><br><del>Docker <a href="https://docs.docker.com/" target="_blank" rel="noopener">https://docs.docker.com/</a></del></p><p><del>虚拟开发环境</del><br><del>Vagrant <a href="https://www.vagrantup.com/" target="_blank" rel="noopener">https://www.vagrantup.com/</a></del></p><p><del>部署运维</del><br><del>k8s <a href="https://www.coursera.org/learn/google-kubernetes-engine" target="_blank" rel="noopener">https://www.coursera.org/learn/google-kubernetes-engine</a></del></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
+      <title>通过 storm ssh 连接 vps</title>
+      <link href="/2018/12/18/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
+      <url>/2018/12/18/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/</url>
+      
+        <content type="html"><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p><p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p><p>install storms<br><code>[sudo] pip install stromssh</code></p><p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p><p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p><p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p><p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p><p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p><p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p><p>connect vps<br><code>ssh vpsname</code></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
       <title>ubuntu查看自己的外网IP</title>
       <link href="/2018/12/14/ubuntu%E6%9F%A5%E7%9C%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%96%E7%BD%91IP/"/>
       <url>/2018/12/14/ubuntu%E6%9F%A5%E7%9C%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%A4%96%E7%BD%91IP/</url>
@@ -32,23 +54,6 @@
         <content type="html"><![CDATA[<p>This is My Blog, Welcome.</p>]]></content>
       
       
-      
-    </entry>
-    
-    <entry>
-      <title>面试经验#1</title>
-      <link href="/2018/10/12/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C-1/"/>
-      <url>/2018/10/12/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C-1/</url>
-      
-        <content type="html"><![CDATA[<p>1 着装，干净整洁，胡须头发。<br>2 提前到达，面试不需要提前达到，但是一些公司位置诡异，交通问题也要考虑。<br>3 要有礼貌，前台，hr，面试官<br>4 面试官介绍的时候要认真听，问已经告诉你的事情很糟糕。<br>5 要准备好自我介绍，介绍更多是一种广度优先遍历且不易太广太深的树。太广会冗长，太深会丢失主题。<br>6 “简单介绍一下参与的项目是做什么的，我们再挑感兴趣的或者主要参与的仔细撩一下”<br>7 逻辑清晰才是交流，有客有主不时互换的交流，节奏要有，不然会很被动。<br>8 携带简历，除非通知‘不需要携带简历’<br>9 携带笔<br>10 对问题的理解，对问题中疑惑的提问，纸张上整理问题的画图结构，交流的层次，回答的逻辑，态度，是除问题外的考察点，不要小看这些东西。<br>11 接上，抗压，态度，礼貌，潜力，思考方式，交流方式，不经意的习惯，功底，性格。都是考察的地方。面试官都会有在面试后填写总结报告，这会强化他们注意的项目，如果好似一个自由随意的小公司，你与人相处的能力更为重要。<br>12 面试职位的基本知识要掌握，nice的面试官会有随着你回答问题的情况调整难度和广度，探求你的上下限，问出12的问题，然后排除掉你2个不好的回答，平滑一下盲点。但是如果一些基本功底都没有达到下限要求，就会很糟糕。<br>13 面试问题要有自己的流程，听，思考，询问，思考，抛出问题，思考，纸上简单结构，根据结构回答。<br>14 接上，听到问题后，默不作声在纸张上画画，然后长时间拿不出一个回答很糟糕，既没有交流，也没有解决问题。<br>15 有解答的希望可以请求延长时间。  </p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 面试 </tag>
-            
-        </tags>
       
     </entry>
     

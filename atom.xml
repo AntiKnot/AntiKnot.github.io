@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-14T02:30:38.418Z</updated>
+  <updated>2018-12-18T15:59:59.886Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>基础技术栈</title>
+    <link href="http://yoursite.com/2018/12/18/%E5%9F%BA%E7%A1%80%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    <id>http://yoursite.com/2018/12/18/基础技术栈/</id>
+    <published>2018-12-18T15:02:52.386Z</published>
+    <updated>2018-12-18T15:59:59.886Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;基础技术栈&quot;&gt;&lt;a href=&quot;#基础技术栈&quot; class=&quot;headerlink&quot; title=&quot;基础技术栈&quot;&gt;&lt;/a&gt;基础技术栈&lt;/h1&gt;&lt;p&gt;编程语言&lt;br&gt;Python &lt;a
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>通过 storm ssh 连接 vps</title>
+    <link href="http://yoursite.com/2018/12/18/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
+    <id>http://yoursite.com/2018/12/18/通过 storm ssh 连接 vps/</id>
+    <published>2018-12-18T15:01:06.586Z</published>
+    <updated>2018-12-18T15:01:35.251Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;通过-storm-ssh-连接-vps&quot;&gt;&lt;a href=&quot;#通过-storm-ssh-连接-vps&quot; class=&quot;headerlink&quot; title=&quot;通过 storm ssh 连接 vps&quot;&gt;&lt;/a&gt;通过 storm ssh 连接
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>ubuntu查看自己的外网IP</title>
@@ -79,30 +123,6 @@
     
     </summary>
     
-    
-  </entry>
-  
-  <entry>
-    <title>面试经验#1</title>
-    <link href="http://yoursite.com/2018/10/12/%E9%9D%A2%E8%AF%95%E7%BB%8F%E9%AA%8C-1/"/>
-    <id>http://yoursite.com/2018/10/12/面试经验-1/</id>
-    <published>2018-10-12T03:40:17.000Z</published>
-    <updated>2018-10-12T04:02:13.286Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;1 着装，干净整洁，胡须头发。&lt;br&gt;2 提前到达，面试不需要提前达到，但是一些公司位置诡异，交通问题也要考虑。&lt;br&gt;3 要有礼貌，前台，hr，面试官&lt;br&gt;4 面试官介绍的时候要认真听，问已经告诉你的事情很糟糕。&lt;br&gt;5
-        
-      
-    
-    </summary>
-    
-    
-      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
