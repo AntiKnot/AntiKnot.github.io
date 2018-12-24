@@ -275,6 +275,149 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/24/Mong数据备份/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yansy">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SailerNote">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/12/24/Mong数据备份/" itemprop="url">Mongo数据备份</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-24T23:47:53+08:00">
+                2018-12-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>mongodb+rsync+crontab</p>
+<h2 id="获取需要备份文件-mongodb"><a href="#获取需要备份文件-mongodb" class="headerlink" title="获取需要备份文件 mongodb"></a>获取需要备份文件 mongodb</h2><p>项目中需要备份的文件有两种，</p>
+<ol>
+<li>mongo的数据</li>
+<li>docs下的excel和word文件</li>
+</ol>
+<p>mongo原生的三个命令可以从数据库中导出数据文件，导入数据文件，以及通过文件对数据库进行表级字段级操作。</p>
+<p>（以下只涉及到备份预案）</p>
+<p>常用的mongo数据库导出<br><code>mongodump -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 -o 文件存在路径</code></p>
+<p>不需要展开的文件目录，mongo提供了导出压缩文件的命令，每天备份一次，文件名使用日期-时间戳-数据库.archive的形式，–archive和-o不兼容，只能同时使用一个命令。<br>获取时间戳<br><code>HOD=$(date +%s)</code><br>获取yyyyMMdd格式日期<br><code>TODAY=$(date +%Y%m%d)</code><br>导出存档文件<br><code>mongodump -h &quot;$DB_HOST&quot;  --port &quot;$DB_PORT&quot; -d &quot;$DB_NAME&quot; --gzip  --archive=&quot;$ARCHIVE&quot;</code></p>
+<h2 id="推送到备份服务器-rsync"><a href="#推送到备份服务器-rsync" class="headerlink" title="推送到备份服务器 rsync"></a>推送到备份服务器 rsync</h2><p>rsync具有ssh和daemon两种服务模式，两种又可以进行推||拉两种同步方式。（我个人直觉上比较喜欢资源服务器搭建好后，自由拉取。或者由一个中心服务器控制文件流动的，而不是资源服务器自动推。所以使用了daemon和pull的模式，因为拉取在备份服务器上运行脚本，是否成功获取也很容易通过一些脚本处理。）<br>daemon的主要配置在rsyncd.conf文件中<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">pid file = /var/run/rsyncd.pid # The process id file the daemon uses.</span><br><span class="line">lock file = /var/run/rsync.lock # The daemon lock file.</span><br><span class="line">log file = /var/log/rsync.log # The location of the log file.</span><br><span class="line">port = 12000</span><br><span class="line"></span><br><span class="line"># [files] This is the module name. </span><br><span class="line"># The name used here is what you’ll be putting in the rsync pull command as the first part of the source (/files/../..). </span><br><span class="line"># You can name it what you’d like and can have as many as you’d like.</span><br><span class="line">[files] </span><br><span class="line">path = /home/data/files # The file path for files associated with this module.</span><br><span class="line">comment = RSYNC FILES # Descriptive comment for this module.</span><br><span class="line">read only = no # This tells the daemon the directory for this module is read-only. You cannot upload to it. For upload only, use upload only = true.</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line"># 24标志c类网段</span><br><span class="line">hosts allow = ipaddr/24</span><br><span class="line">timeout = 300 # Time, in seconds, the rsync daemon will wait before terminating a dead conenction.</span><br><span class="line"></span><br><span class="line">[mongo]</span><br><span class="line">path = /home/data/mongo</span><br><span class="line">comment = MONGODB BACKUP</span><br><span class="line">read only = no</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line"># ipaddr like 127.0.0.1</span><br><span class="line">hosts allow = ipaddr/24 ipaddr/24</span><br><span class="line">timeout = 300</span><br><span class="line"></span><br><span class="line">[docs]</span><br><span class="line">path = /home/static/docs</span><br><span class="line">comment = DOCS BACKUP</span><br><span class="line">read only = no</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line">hosts allow = ipaddr/24 ipaddr/24</span><br><span class="line">timeout = 300</span><br></pre></td></tr></table></figure></p>
+<p>启动<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync --daemon</span><br></pre></td></tr></table></figure></p>
+<p>检查启动情况<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps x | grep rsync</span><br></pre></td></tr></table></figure></p>
+<p>停止daemon<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kill `cat /var/run/rsyncd.pid`</span><br></pre></td></tr></table></figure></p>
+<p>通过xinetd守护进程</p>
+<p>备份服务器拉取数据<br>查看rsync服务器中可以同步的目录列表<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -rdt rsync://IPADDR:RsyncPort/</span><br></pre></td></tr></table></figure></p>
+<p>可以反复执行拿到下级目录<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -rdt rsync://IPADDR:RsyncPort/DirectoryName</span><br></pre></td></tr></table></figure></p>
+<p>找到资源后 同步到目标路径<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -rdt rsync://IPADDR:RsyncPort/DirectoryName/File /DestinationDirectory/</span><br></pre></td></tr></table></figure></p>
+<p>MacOS因为是NFS的数据格式，同步的时候需要使用 -O参数，SRC为资源路径 DEST为目标路径，-avu， -rdt同步中的细节调整，详看文档<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#!/usr/bin/env bash</span><br><span class="line">RSYNC_SERVER=rsync://127.0.0.1:12000</span><br><span class="line">RSYNC_DIR=files</span><br><span class="line">RSYNC_SRC=&quot;$RSYNC_SERVER&quot;/&quot;$RSYNC_DIR&quot;</span><br><span class="line">RSYNC_DEST=&quot;/data/server_back&quot;</span><br><span class="line">sudo rsync -avu -O --progress &quot;$RSYNC_SRC&quot; &quot;$RSYNC_DEST&quot;</span><br></pre></td></tr></table></figure></p>
+<h2 id="定时执行获取-amp-amp-推送操作-crontab"><a href="#定时执行获取-amp-amp-推送操作-crontab" class="headerlink" title="定时执行获取&amp;&amp;推送操作 crontab"></a>定时执行获取&amp;&amp;推送操作 crontab</h2><p>crontab是系统级的定时任务<br><code>crontab -e</code> 编辑定时任务<br><code>crontab -l</code> 查看定时任务列表<br>保存后系统就会按照crontab执行计划任务<br>crontab 除了执行shell外还行执行其他脚本<br><code>*/1 * * * * /usr/bin/python /root/images/color.py</code> 如可以执行python解释器来执行python脚本，改脚本为执行color.py/1 minute</p>
+<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>Destination host unreachable <a href="https://blog.csdn.net/yzit0905/article/details/52748122" target="_blank" rel="noopener">https://blog.csdn.net/yzit0905/article/details/52748122</a></p>
+<h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p>知乎上关于mongodb backup的文章 <a href="https://zhuanlan.zhihu.com/p/29809036" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/29809036</a><br>githu上自动备份mongo的脚本 <a href="https://github.com/micahwedemeyer/automongobackup/blob/master/src/automongobackup.sh" target="_blank" rel="noopener">https://github.com/micahwedemeyer/automongobackup/blob/master/src/automongobackup.sh</a><br>mongodb压缩，过去需要额外执行压缩命令，3.2引入了–gzip <a href="https://www.cnblogs.com/xuliuzai/p/9594138.html" target="_blank" rel="noopener">https://www.cnblogs.com/xuliuzai/p/9594138.html</a><br>mongo官方文章，存档与压缩 <a href="https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools" target="_blank" rel="noopener">https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools</a></p>
+<p>来自linux公社，rsync实现文件同步配置与使用 <a href="https://www.linuxidc.com/Linux/2012-10/71704.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2012-10/71704.htm</a><br>来自linux公社，rsync实现文件同步配置排除故障<br>! rsync 使用详解 <a href="https://www.atlantic.net/hipaa-compliant-cloud-storage/how-to-setup-rsync-daemon-linux-server/" target="_blank" rel="noopener">https://www.atlantic.net/hipaa-compliant-cloud-storage/how-to-setup-rsync-daemon-linux-server/</a><br>rsync 使用详解 相当于上一片的中文版 <a href="https://segmentfault.com/a/1190000000444614" target="_blank" rel="noopener">https://segmentfault.com/a/1190000000444614</a><br>wiki关于xinted文章 <a href="https://en.wikipedia.org/wiki/Xinetd" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Xinetd</a></p>
+<p>20个crontab的用例,常见写法与基本命令 <a href="https://www.jianshu.com/p/d93e2b177814" target="_blank" rel="noopener">https://www.jianshu.com/p/d93e2b177814</a><br>crontab语法辅助工具 <a href="https://crontab.guru/#52_0-23_*_*_*" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_*</a></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/12/18/学习摘要 像素的一生 Life of Pixel/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1221,7 +1364,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">6</span>
+                  <span class="site-state-item-count">7</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>

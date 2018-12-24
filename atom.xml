@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-18T16:03:42.752Z</updated>
+  <updated>2018-12-24T15:49:42.084Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mongo数据备份</title>
+    <link href="http://yoursite.com/2018/12/24/Mong%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/"/>
+    <id>http://yoursite.com/2018/12/24/Mong数据备份/</id>
+    <published>2018-12-24T15:47:53.817Z</published>
+    <updated>2018-12-24T15:49:42.084Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;mongodb+rsync+crontab&lt;/p&gt;
+&lt;h2 id=&quot;获取需要备份文件-mongodb&quot;&gt;&lt;a href=&quot;#获取需要备份文件-mongodb&quot; class=&quot;headerlink&quot; title=&quot;获取需要备份文件 mongodb&quot;&gt;&lt;/a&gt;获取需要备份文件
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>学习摘要 像素的一生 Life of Pixel</title>
