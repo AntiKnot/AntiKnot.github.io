@@ -43,7 +43,7 @@
     <link href="http://yoursite.com/2018/12/26/Prometheus&amp;Nginx%E7%9B%91%E6%8E%A7/"/>
     <id>http://yoursite.com/2018/12/26/Prometheus&amp;Nginx监控/</id>
     <published>2018-12-26T10:18:21.182Z</published>
-    <updated>2018-12-26T10:19:33.026Z</updated>
+    <updated>2018-12-26T10:21:33.032Z</updated>
     
     <summary type="html">
     
@@ -51,7 +51,7 @@
       
         
         
-          &lt;p&gt;监控的基本流程&lt;br&gt;process-log-formatlog-exporter-search&amp;amp;parse-graphical&lt;br&gt;进程产生数据-&amp;gt;数据格式化成可解析结构-&amp;gt;采集器同步到查询工具或者解析工具-&amp;gt;查询工具根据查询命令形成可打点的数
+          &lt;h1 id=&quot;Prometheus-amp-Nginx监控&quot;&gt;&lt;a href=&quot;#Prometheus-amp-Nginx监控&quot; class=&quot;headerlink&quot;
         
       
     
@@ -61,11 +61,11 @@
   </entry>
   
   <entry>
-    <title></title>
+    <title>Mongo数据备份</title>
     <link href="http://yoursite.com/2018/12/24/Mongo%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/"/>
     <id>http://yoursite.com/2018/12/24/Mongo数据备份/</id>
     <published>2018-12-24T15:47:53.817Z</published>
-    <updated>2018-12-24T15:57:36.914Z</updated>
+    <updated>2018-12-26T10:26:25.045Z</updated>
     
     <summary type="html">
     
@@ -73,8 +73,8 @@
       
         
         
-          &lt;p&gt;mongodb+rsync+crontab&lt;/p&gt;
-&lt;h2 id=&quot;获取需要备份文件-mongodb&quot;&gt;&lt;a href=&quot;#获取需要备份文件-mongodb&quot; class=&quot;headerlink&quot; title=&quot;获取需要备份文件 mongodb&quot;&gt;&lt;/a&gt;获取需要备份文件
+          &lt;h1 id=&quot;Mongo数据备份&quot;&gt;&lt;a href=&quot;#Mongo数据备份&quot; class=&quot;headerlink&quot; title=&quot;Mongo数据备份&quot;&gt;&lt;/a&gt;Mongo数据备份&lt;/h1&gt;&lt;p&gt;mongodb+rsync+crontab&lt;/p&gt;
+&lt;h2
         
       
     
