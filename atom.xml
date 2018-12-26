@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-12-24T15:57:36.914Z</updated>
+  <updated>2018-12-26T10:20:48.632Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,50 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Install Nginx  with third package</title>
+    <link href="http://yoursite.com/2018/12/26/Install%20Nginx%20%20with%20third%20package/"/>
+    <id>http://yoursite.com/2018/12/26/Install Nginx  with third package/</id>
+    <published>2018-12-26T10:19:48.592Z</published>
+    <updated>2018-12-26T10:20:48.632Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Install-Nginx-with-third-package&quot;&gt;&lt;a href=&quot;#Install-Nginx-with-third-package&quot; class=&quot;headerlink&quot; title=&quot;Install Nginx  with third
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Prometheus &amp;&amp; Nginx监控</title>
+    <link href="http://yoursite.com/2018/12/26/Prometheus&amp;Nginx%E7%9B%91%E6%8E%A7/"/>
+    <id>http://yoursite.com/2018/12/26/Prometheus&amp;Nginx监控/</id>
+    <published>2018-12-26T10:18:21.182Z</published>
+    <updated>2018-12-26T10:19:33.026Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;监控的基本流程&lt;br&gt;process-log-formatlog-exporter-search&amp;amp;parse-graphical&lt;br&gt;进程产生数据-&amp;gt;数据格式化成可解析结构-&amp;gt;采集器同步到查询工具或者解析工具-&amp;gt;查询工具根据查询命令形成可打点的数
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
