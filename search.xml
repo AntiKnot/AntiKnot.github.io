@@ -3,6 +3,17 @@
   
     
     <entry>
+      <title>crontab_tool</title>
+      <link href="/2019/08/02/crontab-tool/"/>
+      <url>/2019/08/02/crontab-tool/</url>
+      
+        <content type="html"><![CDATA[<p>crontab 计时任务语法工具<br>summary: 会根据填写的命令，给出语意化的说明和下次触发的标准时间。<br>link: <a href="https://crontab.guru/#52_0-23_*_*_" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_</a>*</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    <entry>
       <title>通过 storm ssh 连接 vps</title>
       <link href="/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
       <url>/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/</url>

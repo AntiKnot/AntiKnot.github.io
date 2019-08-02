@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-15T06:31:34.042Z</updated>
+  <updated>2019-08-02T10:00:23.510Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>crontab_tool</title>
+    <link href="http://yoursite.com/2019/08/02/crontab-tool/"/>
+    <id>http://yoursite.com/2019/08/02/crontab-tool/</id>
+    <published>2019-08-02T09:57:58.000Z</published>
+    <updated>2019-08-02T10:00:23.510Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;crontab 计时任务语法工具&lt;br&gt;summary: 会根据填写的命令，给出语意化的说明和下次触发的标准时间。&lt;br&gt;link: &lt;a href=&quot;https://crontab.guru/#52_0-23_*_*_&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>通过 storm ssh 连接 vps</title>
