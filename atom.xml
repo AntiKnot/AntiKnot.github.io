@@ -123,27 +123,6 @@
   </entry>
   
   <entry>
-    <title>Prometheus &amp;&amp; Nginx监控</title>
-    <link href="https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx%E7%9B%91%E6%8E%A7/"/>
-    <id>https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx监控/</id>
-    <published>2019-03-15T06:31:34.039Z</published>
-    <updated>2019-03-15T06:31:34.039Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Prometheus-amp-Nginx监控"><a href="#Prometheus-amp-Nginx监控" class="headerlink" title="Prometheus&amp;Nginx监控"></a>Prometheus&amp;Nginx监控</h1><hr><p>监控的基本流程<br>process-log-formatlog-exporter-search&amp;parse-graphical<br>进程产生数据-&gt;数据格式化成可解析结构-&gt;采集器同步到查询工具或者解析工具-&gt;查询工具根据查询命令形成可打点的数据-&gt;打点数据进行数据展示</p><p>监控可以使用Prometheus普罗米西斯栈进行，日志的话还是使用ELK栈</p><hr><h3 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h3><p>《Prometheus通过nginx-module-vts和nginx-vts-exporter监控Nginx性能》<br><a href="http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD" target="_blank" rel="noopener">http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD</a>    </p><p>《用Prometheus细化Nginx监控》<br><a href="https://yq.aliyun.com/articles/548175" target="_blank" rel="noopener">https://yq.aliyun.com/articles/548175</a></p><p>《Prometheus 监控整合 Nginx Metrics》<br><a href="https://yq.aliyun.com/articles/573597" target="_blank" rel="noopener">https://yq.aliyun.com/articles/573597</a></p><p>《linux系统下nginx安装目录和nginx.conf配置文件目录》<br><a href="https://blog.csdn.net/cn12306com/article/details/80643400" target="_blank" rel="noopener">https://blog.csdn.net/cn12306com/article/details/80643400</a></p><p>《Prometheus 实战》<br><a href="https://legacy.gitbook.com/book/songjiayang/prometheus/details" target="_blank" rel="noopener">https://legacy.gitbook.com/book/songjiayang/prometheus/details</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Prometheus-amp-Nginx监控&quot;&gt;&lt;a href=&quot;#Prometheus-amp-Nginx监控&quot; class=&quot;headerlink&quot; title=&quot;Prometheus&amp;amp;Nginx监控&quot;&gt;&lt;/a&gt;Prometheus&amp;amp;Nginx
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="https://sailernote.github.io/2019/03/15/hello-world/"/>
     <id>https://sailernote.github.io/2019/03/15/hello-world/</id>
@@ -158,6 +137,27 @@
       
         &lt;p&gt;This is My Blog, Welcome.&lt;/p&gt;
 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Prometheus &amp;&amp; Nginx监控</title>
+    <link href="https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx%E7%9B%91%E6%8E%A7/"/>
+    <id>https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx监控/</id>
+    <published>2019-03-15T06:31:34.039Z</published>
+    <updated>2019-03-15T06:31:34.039Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Prometheus-amp-Nginx监控"><a href="#Prometheus-amp-Nginx监控" class="headerlink" title="Prometheus&amp;Nginx监控"></a>Prometheus&amp;Nginx监控</h1><hr><p>监控的基本流程<br>process-log-formatlog-exporter-search&amp;parse-graphical<br>进程产生数据-&gt;数据格式化成可解析结构-&gt;采集器同步到查询工具或者解析工具-&gt;查询工具根据查询命令形成可打点的数据-&gt;打点数据进行数据展示</p><p>监控可以使用Prometheus普罗米西斯栈进行，日志的话还是使用ELK栈</p><hr><h3 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h3><p>《Prometheus通过nginx-module-vts和nginx-vts-exporter监控Nginx性能》<br><a href="http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD" target="_blank" rel="noopener">http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD</a>    </p><p>《用Prometheus细化Nginx监控》<br><a href="https://yq.aliyun.com/articles/548175" target="_blank" rel="noopener">https://yq.aliyun.com/articles/548175</a></p><p>《Prometheus 监控整合 Nginx Metrics》<br><a href="https://yq.aliyun.com/articles/573597" target="_blank" rel="noopener">https://yq.aliyun.com/articles/573597</a></p><p>《linux系统下nginx安装目录和nginx.conf配置文件目录》<br><a href="https://blog.csdn.net/cn12306com/article/details/80643400" target="_blank" rel="noopener">https://blog.csdn.net/cn12306com/article/details/80643400</a></p><p>《Prometheus 实战》<br><a href="https://legacy.gitbook.com/book/songjiayang/prometheus/details" target="_blank" rel="noopener">https://legacy.gitbook.com/book/songjiayang/prometheus/details</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Prometheus-amp-Nginx监控&quot;&gt;&lt;a href=&quot;#Prometheus-amp-Nginx监控&quot; class=&quot;headerlink&quot; title=&quot;Prometheus&amp;amp;Nginx监控&quot;&gt;&lt;/a&gt;Prometheus&amp;amp;Nginx
       
     
     </summary>
