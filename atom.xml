@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sailernote.github.io/"/>
-  <updated>2019-08-02T10:00:23.510Z</updated>
+  <updated>2020-04-06T13:27:08.340Z</updated>
   <id>https://sailernote.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>how-to-blog</title>
+    <link href="https://sailernote.github.io/2020/04/06/how-to-blog/"/>
+    <id>https://sailernote.github.io/2020/04/06/how-to-blog/</id>
+    <published>2020-04-06T13:12:41.000Z</published>
+    <updated>2020-04-06T13:27:08.340Z</updated>
+    
+    <content type="html"><![CDATA[<p>blog只要有一段时间没有更新就忘记整个流程。<br>blog在公网发布是需要接触github page的。而生成可发布的文件需要hexo这个工具。<br>所以我开了两个项目一个public项目[2]用于展示blog，一个private项目[1]用于保存hexo文件。<br>当想不起来如何使用hexo的时候就去官网看下文档关于写作和发布的部分。[3]</p><p>reference<br>[1] github hexo <a href="https://github.com/SailerNote/hexo_blog" target="_blank" rel="noopener">https://github.com/SailerNote/hexo_blog</a><br>[2] github page <a href="https://github.com/SailerNote/sailernote.github.io" target="_blank" rel="noopener">https://github.com/SailerNote/sailernote.github.io</a><br>[3] hexo docs   <a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/writing</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;blog只要有一段时间没有更新就忘记整个流程。&lt;br&gt;blog在公网发布是需要接触github page的。而生成可发布的文件需要hexo这个工具。&lt;br&gt;所以我开了两个项目一个public项目[2]用于展示blog，一个private项目[1]用于保存hexo文件。&lt;br
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>crontab_tool</title>
@@ -38,27 +59,6 @@
   </entry>
   
   <entry>
-    <title>通过 storm ssh 连接 vps</title>
-    <link href="https://sailernote.github.io/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
-    <id>https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/</id>
-    <published>2019-03-15T06:31:34.042Z</published>
-    <updated>2019-03-15T06:31:34.042Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p><p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p><p>install storms<br><code>[sudo] pip install stromssh</code></p><p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p><p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p><p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p><p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p><p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p><p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p><p>connect vps<br><code>ssh vpsname</code></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;通过-storm-ssh-连接-vps&quot;&gt;&lt;a href=&quot;#通过-storm-ssh-连接-vps&quot; class=&quot;headerlink&quot; title=&quot;通过 storm ssh 连接 vps&quot;&gt;&lt;/a&gt;通过 storm ssh 连接 vps&lt;/h1&gt;&lt;p&gt;Vu
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>学习摘要 像素的一生 Life of Pixel</title>
     <link href="https://sailernote.github.io/2019/03/15/%E5%AD%A6%E4%B9%A0%E6%91%98%E8%A6%81%20%E5%83%8F%E7%B4%A0%E7%9A%84%E4%B8%80%E7%94%9F%20Life%20of%20Pixel/"/>
     <id>https://sailernote.github.io/2019/03/15/学习摘要 像素的一生 Life of Pixel/</id>
@@ -73,6 +73,27 @@
       
         &lt;h1 id=&quot;像素的一生-Life-of-Pixel&quot;&gt;&lt;a href=&quot;#像素的一生-Life-of-Pixel&quot; class=&quot;headerlink&quot; title=&quot;像素的一生 Life of Pixel&quot;&gt;&lt;/a&gt;像素的一生 Life of Pixel&lt;/h1&gt;&lt;hr&gt;
 
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>通过 storm ssh 连接 vps</title>
+    <link href="https://sailernote.github.io/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
+    <id>https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/</id>
+    <published>2019-03-15T06:31:34.042Z</published>
+    <updated>2019-03-15T06:31:34.042Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p><p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p><p>install storms<br><code>[sudo] pip install stromssh</code></p><p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p><p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p><p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p><p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p><p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p><p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p><p>connect vps<br><code>ssh vpsname</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;通过-storm-ssh-连接-vps&quot;&gt;&lt;a href=&quot;#通过-storm-ssh-连接-vps&quot; class=&quot;headerlink&quot; title=&quot;通过 storm ssh 连接 vps&quot;&gt;&lt;/a&gt;通过 storm ssh 连接 vps&lt;/h1&gt;&lt;p&gt;Vu
       
     
     </summary>
@@ -123,6 +144,27 @@
   </entry>
   
   <entry>
+    <title>Prometheus &amp;&amp; Nginx监控</title>
+    <link href="https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx%E7%9B%91%E6%8E%A7/"/>
+    <id>https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx监控/</id>
+    <published>2019-03-15T06:31:34.039Z</published>
+    <updated>2019-03-15T06:31:34.039Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Prometheus-amp-Nginx监控"><a href="#Prometheus-amp-Nginx监控" class="headerlink" title="Prometheus&amp;Nginx监控"></a>Prometheus&amp;Nginx监控</h1><hr><p>监控的基本流程<br>process-log-formatlog-exporter-search&amp;parse-graphical<br>进程产生数据-&gt;数据格式化成可解析结构-&gt;采集器同步到查询工具或者解析工具-&gt;查询工具根据查询命令形成可打点的数据-&gt;打点数据进行数据展示</p><p>监控可以使用Prometheus普罗米西斯栈进行，日志的话还是使用ELK栈</p><hr><h3 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h3><p>《Prometheus通过nginx-module-vts和nginx-vts-exporter监控Nginx性能》<br><a href="http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD" target="_blank" rel="noopener">http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD</a>    </p><p>《用Prometheus细化Nginx监控》<br><a href="https://yq.aliyun.com/articles/548175" target="_blank" rel="noopener">https://yq.aliyun.com/articles/548175</a></p><p>《Prometheus 监控整合 Nginx Metrics》<br><a href="https://yq.aliyun.com/articles/573597" target="_blank" rel="noopener">https://yq.aliyun.com/articles/573597</a></p><p>《linux系统下nginx安装目录和nginx.conf配置文件目录》<br><a href="https://blog.csdn.net/cn12306com/article/details/80643400" target="_blank" rel="noopener">https://blog.csdn.net/cn12306com/article/details/80643400</a></p><p>《Prometheus 实战》<br><a href="https://legacy.gitbook.com/book/songjiayang/prometheus/details" target="_blank" rel="noopener">https://legacy.gitbook.com/book/songjiayang/prometheus/details</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Prometheus-amp-Nginx监控&quot;&gt;&lt;a href=&quot;#Prometheus-amp-Nginx监控&quot; class=&quot;headerlink&quot; title=&quot;Prometheus&amp;amp;Nginx监控&quot;&gt;&lt;/a&gt;Prometheus&amp;amp;Nginx
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://sailernote.github.io/2019/03/15/hello-world/"/>
     <id>https://sailernote.github.io/2019/03/15/hello-world/</id>
@@ -137,27 +179,6 @@
       
         &lt;p&gt;This is My Blog, Welcome.&lt;/p&gt;
 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Prometheus &amp;&amp; Nginx监控</title>
-    <link href="https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx%E7%9B%91%E6%8E%A7/"/>
-    <id>https://sailernote.github.io/2019/03/15/Prometheus&amp;Nginx监控/</id>
-    <published>2019-03-15T06:31:34.039Z</published>
-    <updated>2019-03-15T06:31:34.039Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="Prometheus-amp-Nginx监控"><a href="#Prometheus-amp-Nginx监控" class="headerlink" title="Prometheus&amp;Nginx监控"></a>Prometheus&amp;Nginx监控</h1><hr><p>监控的基本流程<br>process-log-formatlog-exporter-search&amp;parse-graphical<br>进程产生数据-&gt;数据格式化成可解析结构-&gt;采集器同步到查询工具或者解析工具-&gt;查询工具根据查询命令形成可打点的数据-&gt;打点数据进行数据展示</p><p>监控可以使用Prometheus普罗米西斯栈进行，日志的话还是使用ELK栈</p><hr><h3 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h3><p>《Prometheus通过nginx-module-vts和nginx-vts-exporter监控Nginx性能》<br><a href="http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD" target="_blank" rel="noopener">http://blog.leanote.com/post/stephen_yuan/Prometheus%E9%80%9A%E8%BF%87nginx-module-vts%E5%92%8Cnginx-vts-exporter%E7%9B%91%E6%8E%A7Nginx%E6%80%A7%E8%83%BD</a>    </p><p>《用Prometheus细化Nginx监控》<br><a href="https://yq.aliyun.com/articles/548175" target="_blank" rel="noopener">https://yq.aliyun.com/articles/548175</a></p><p>《Prometheus 监控整合 Nginx Metrics》<br><a href="https://yq.aliyun.com/articles/573597" target="_blank" rel="noopener">https://yq.aliyun.com/articles/573597</a></p><p>《linux系统下nginx安装目录和nginx.conf配置文件目录》<br><a href="https://blog.csdn.net/cn12306com/article/details/80643400" target="_blank" rel="noopener">https://blog.csdn.net/cn12306com/article/details/80643400</a></p><p>《Prometheus 实战》<br><a href="https://legacy.gitbook.com/book/songjiayang/prometheus/details" target="_blank" rel="noopener">https://legacy.gitbook.com/book/songjiayang/prometheus/details</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;Prometheus-amp-Nginx监控&quot;&gt;&lt;a href=&quot;#Prometheus-amp-Nginx监控&quot; class=&quot;headerlink&quot; title=&quot;Prometheus&amp;amp;Nginx监控&quot;&gt;&lt;/a&gt;Prometheus&amp;amp;Nginx
       
     
     </summary>

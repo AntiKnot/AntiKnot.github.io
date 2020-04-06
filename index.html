@@ -205,6 +205,66 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2020/04/06/how-to-blog/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yansy">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SailerNote">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/04/06/how-to-blog/" class="post-title-link" itemprop="url">how-to-blog</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-04-06 21:12:41 / Modified: 21:27:08" itemprop="dateCreated datePublished" datetime="2020-04-06T21:12:41+08:00">2020-04-06</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>blog只要有一段时间没有更新就忘记整个流程。<br>blog在公网发布是需要接触github page的。而生成可发布的文件需要hexo这个工具。<br>所以我开了两个项目一个public项目[2]用于展示blog，一个private项目[1]用于保存hexo文件。<br>当想不起来如何使用hexo的时候就去官网看下文档关于写作和发布的部分。[3]</p>
+<p>reference<br>[1] github hexo <a href="https://github.com/SailerNote/hexo_blog" target="_blank" rel="noopener">https://github.com/SailerNote/hexo_blog</a><br>[2] github page <a href="https://github.com/SailerNote/sailernote.github.io" target="_blank" rel="noopener">https://github.com/SailerNote/sailernote.github.io</a><br>[3] hexo docs   <a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/writing</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/08/02/crontab-tool/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -245,73 +305,6 @@
 
       
           <p>crontab 计时任务语法工具<br>summary: 会根据填写的命令，给出语意化的说明和下次触发的标准时间。<br>link: <a href="https://crontab.guru/#52_0-23_*_*_" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_</a>*</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yansy">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SailerNote">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/03/15/通过 storm ssh 连接 vps/" class="post-title-link" itemprop="url">通过 storm ssh 连接 vps</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p>
-<p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p>
-<p>install storms<br><code>[sudo] pip install stromssh</code></p>
-<p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p>
-<p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p>
-<p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p>
-<p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p>
-<p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p>
-<p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p>
-<p>connect vps<br><code>ssh vpsname</code></p>
 
       
     </div>
@@ -555,6 +548,73 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yansy">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SailerNote">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/03/15/通过 storm ssh 连接 vps/" class="post-title-link" itemprop="url">通过 storm ssh 连接 vps</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p>
+<p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p>
+<p>install storms<br><code>[sudo] pip install stromssh</code></p>
+<p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p>
+<p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p>
+<p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p>
+<p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p>
+<p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p>
+<p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p>
+<p>connect vps<br><code>ssh vpsname</code></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/基础技术栈/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -688,64 +748,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yansy">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SailerNote">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/03/15/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>This is My Blog, Welcome.</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/Prometheus&Nginx监控/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -793,6 +795,64 @@
 <p>《Prometheus 监控整合 Nginx Metrics》<br><a href="https://yq.aliyun.com/articles/573597" target="_blank" rel="noopener">https://yq.aliyun.com/articles/573597</a></p>
 <p>《linux系统下nginx安装目录和nginx.conf配置文件目录》<br><a href="https://blog.csdn.net/cn12306com/article/details/80643400" target="_blank" rel="noopener">https://blog.csdn.net/cn12306com/article/details/80643400</a></p>
 <p>《Prometheus 实战》<br><a href="https://legacy.gitbook.com/book/songjiayang/prometheus/details" target="_blank" rel="noopener">https://legacy.gitbook.com/book/songjiayang/prometheus/details</a></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yansy">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SailerNote">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/03/15/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>This is My Blog, Welcome.</p>
 
       
     </div>
@@ -970,75 +1030,12 @@
   
   
 
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2018/11/08/代码动态演示工具/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yansy">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SailerNote">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2018/11/08/代码动态演示工具/" class="post-title-link" itemprop="url">代码动态演示工具</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2018-11-08 11:28:41" itemprop="dateCreated datePublished" datetime="2018-11-08T11:28:41+08:00">2018-11-08</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2019-03-15 14:31:34" itemprop="dateModified" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
-              </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>代码动态演示工具，对命令行逐行表现力很好。<br><a href="https://glorious.codes/demo" target="_blank" rel="noopener">https://glorious.codes/demo</a></p>
-<p>早一年我还很倾向使用样式结构简单的系统，因为可以照顾到性能低的设备和一些兼容性不好的浏览器。<br>但是后来看到华盛顿邮报等网站的图表后，开始反思，图表动画的信息量更大，具有文字不具有的表现力。</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
 
 
 
@@ -1103,7 +1100,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>

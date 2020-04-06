@@ -46,31 +46,27 @@
   };
 </script>
 
-  <meta name="description" content="Install Nginx  with third package complingNginx 添加第三方包的时候需要重新编译流程相对繁琐nginx -v 显示 nginx 版本号nginx -V 显示 nginx 的版本，编译器版本和配置参数1configure arguments:&amp;#123;... some package ...&amp;#125; configure arguments 后面的参">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Install Nginx  with third package">
-<meta property="og:url" content="https://sailernote.github.io/2019/03/15/Install Nginx  with third package/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="SailerNote">
+<meta property="og:url" content="https://sailernote.github.io/page/2/index.html">
 <meta property="og:site_name" content="SailerNote">
-<meta property="og:description" content="Install Nginx  with third package complingNginx 添加第三方包的时候需要重新编译流程相对繁琐nginx -v 显示 nginx 版本号nginx -V 显示 nginx 的版本，编译器版本和配置参数1configure arguments:&amp;#123;... some package ...&amp;#125; configure arguments 后面的参">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-15T06:31:34.038Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Install Nginx  with third package">
-<meta name="twitter:description" content="Install Nginx  with third package complingNginx 添加第三方包的时候需要重新编译流程相对繁琐nginx -v 显示 nginx 版本号nginx -V 显示 nginx 的版本，编译器版本和配置参数1configure arguments:&amp;#123;... some package ...&amp;#125; configure arguments 后面的参">
+<meta name="twitter:title" content="SailerNote">
 
-<link rel="canonical" href="https://sailernote.github.io/2019/03/15/Install Nginx  with third package/">
+<link rel="canonical" href="https://sailernote.github.io/page/2/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: false,
-    isPost: true
+    isHome: true,
+    isPost: false
   };
 </script>
 
-  <title>Install Nginx  with third package | SailerNote</title>
+  <title>SailerNote</title>
   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156535179-1"></script>
     <script>
@@ -205,11 +201,11 @@
             
 
   <div class="posts-expand">
-      
+        
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/Install Nginx  with third package/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2018/11/08/代码动态演示工具/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -222,7 +218,8 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Install Nginx  with third package
+          
+            <a href="/2018/11/08/代码动态演示工具/" class="post-title-link" itemprop="url">代码动态演示工具</a>
         </h1>
 
         <div class="post-meta">
@@ -232,8 +229,15 @@
               </span>
               <span class="post-meta-item-text">Posted on</span>
 
-              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
+              <time title="Created: 2018-11-08 11:28:41" itemprop="dateCreated datePublished" datetime="2018-11-08T11:28:41+08:00">2018-11-08</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2019-03-15 14:31:34" itemprop="dateModified" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
+              </span>
 
           
 
@@ -246,54 +250,30 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="Install-Nginx-with-third-package"><a href="#Install-Nginx-with-third-package" class="headerlink" title="Install Nginx  with third package"></a>Install Nginx  with third package</h1><hr>
-<h3 id="compling"><a href="#compling" class="headerlink" title="compling"></a>compling</h3><p>Nginx 添加第三方包的时候需要重新编译流程相对繁琐<br><code>nginx -v</code> 显示 nginx 版本号<br><code>nginx -V</code> 显示 nginx 的版本，编译器版本和配置参数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">configure arguments:&#123;... some package ...&#125;</span><br></pre></td></tr></table></figure></p>
-<p>configure arguments 后面的参数就是需要在nginx编译时源码下的参数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd nginx</span><br><span class="line">make clean</span><br><span class="line">./configure &#123;... some package --with-http_xxx_xxx --add-module=ngx_http_module --add-dynamic-module=ngx_http_module ...&#125;</span><br><span class="line">make</span><br></pre></td></tr></table></figure></p>
-<p>如果不是第一次安装nginx，<code>make</code> 之后不要 <code>make install</code>， 不然会覆盖系统下nginx文件，<br>生成的二进制文件在目录 <code>./objs</code> 下<br>如果是静态编译(<code>add-module</code>)则在nginx.conf中只需要直接配置就可以，<br>如果是动态编译(<code>add-dynamic-module</code>)则在nginx.conf 则需要在<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># nginx.conf</span><br><span class="line">load_module &quot;modules/ngx_http_xxxx_module.so&quot;;</span><br></pre></td></tr></table></figure></p>
-<p><code>ngx_http_xxxx_module.so</code> 文件是在 <code>make</code> 后 <code>/objs</code> 目录下，而 <code>load_module</code> 的目录是 <code>/usr/lib/nginx/modules</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp &lt;path&gt;/objs/ngx_http_xxxx_module.so /usr/lib/nginx/modules/</span><br></pre></td></tr></table></figure></p>
-<p>在nginx-1.9.x后的版本中加入了动态编译的feature，使用如下命令可以减少前面cp的步骤，下面操作完成了下载文件到<code>/usr/lib/nginx/modules</code>的过程<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:nginx/stable</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install nginx-module-geoip</span><br></pre></td></tr></table></figure></p>
-<hr>
-<h3 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h3><p>编译好文件后使用-t -c来测试配置文件语法错误，而不是直接<br><code>nginx -s reload</code> 或者 <code>service nginx restart</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/sbin/nginx -t -c /etc/nginx/nginx.conf</span><br></pre></td></tr></table></figure></p>
-<p>查看当前使用的nginx是哪个<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps  -ef | grep nginx</span><br></pre></td></tr></table></figure></p>
-<p>master process 后面的就是 nginx的目录。<br>查看当前使用的nginx配置文件是哪个<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo nginx -t                                              </span><br><span class="line">[sudo] password for current_user:                             </span><br><span class="line">nginx: the configuration file /etc/nginx/nginx.conf syntax is ok                                                      </span><br><span class="line">nginx: configuration file /etc/nginx/nginx.conf test is successful</span><br></pre></td></tr></table></figure></p>
-<hr>
-<h3 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h3><p>Github vozlt/nginx-module-vts<br><a href="https://github.com/vozlt/nginx-module-vts/blob/master/config" target="_blank" rel="noopener">https://github.com/vozlt/nginx-module-vts/blob/master/config</a><br>尝试安装的三方包，用于监控nginx的模块    </p>
-<p>《Compiling Third-Party Modules Into Nginx》<br><a href="https://serversforhackers.com/c/compiling-third-party-modules-into-nginx" target="_blank" rel="noopener">https://serversforhackers.com/c/compiling-third-party-modules-into-nginx</a></p>
-<p>《nginx无痛升级并增加nginx-gridfs模块支持》<br><a href="https://blog.csdn.net/sasoritattoo/article/details/17270631" target="_blank" rel="noopener">https://blog.csdn.net/sasoritattoo/article/details/17270631</a><br>这里给出了一些常见的错误解决方法。</p>
-<p>《How to enable dynamic module with an existing NGINX installation<br>》Stackoverflow<br><a href="https://stackoverflow.com/questions/36554405/how-to-enable-dynamic-module-with-an-existing-nginx-installation" target="_blank" rel="noopener">https://stackoverflow.com/questions/36554405/how-to-enable-dynamic-module-with-an-existing-nginx-installation</a></p>
-<hr>
-<p>EOF</p>
+          <p>代码动态演示工具，对命令行逐行表现力很好。<br><a href="https://glorious.codes/demo" target="_blank" rel="noopener">https://glorious.codes/demo</a></p>
+<p>早一年我还很倾向使用样式结构简单的系统，因为可以照顾到性能低的设备和一些兼容性不好的浏览器。<br>但是后来看到华盛顿邮报等网站的图表后，开始反思，图表动画的信息量更大，具有文字不具有的表现力。</p>
 
+      
     </div>
 
     
     
     
-
       <footer class="post-footer">
-
-        
-
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2019/03/15/Mongo数据备份/" rel="prev" title="Mongo数据备份">
-      <i class="fa fa-chevron-left"></i> Mongo数据备份
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2019/03/15/hello-world/" rel="next" title="Hello World">
-      Hello World <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
+        <div class="post-eof"></div>
       </footer>
-    
   </article>
   
   
   
 
   </div>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
+
 
 
           </div>
@@ -344,7 +324,6 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Install-Nginx-with-third-package"><span class="nav-number">1.</span> <span class="nav-text">Install Nginx  with third package</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#compling"><span class="nav-number">1.0.1.</span> <span class="nav-text">compling</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#tips"><span class="nav-number">1.0.2.</span> <span class="nav-text">tips</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#ref"><span class="nav-number">1.0.3.</span> <span class="nav-text">ref</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
