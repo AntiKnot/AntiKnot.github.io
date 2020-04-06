@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sailernote.github.io/"/>
-  <updated>2020-04-06T13:27:08.340Z</updated>
+  <updated>2020-04-06T13:47:55.011Z</updated>
   <id>https://sailernote.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>learn-haskell-1</title>
+    <link href="https://sailernote.github.io/2020/04/06/learn-haskell-1/"/>
+    <id>https://sailernote.github.io/2020/04/06/learn-haskell-1/</id>
+    <published>2020-04-06T13:30:09.000Z</published>
+    <updated>2020-04-06T13:47:55.011Z</updated>
+    
+    <content type="html"><![CDATA[<p>为什么学习haskell<br>学习haskell更像是一种精神寄托。这是一门很厉害的语言，如果学会它我也会变得很厉害。<br>可能是当下迷茫的状态，希望自己找点事情去做。关于为什么迷茫可能以后会写一写。</p><p>为什么学习haskell而不是其他的函数式编程语言<br>带有类型，postgresql的restful项目是使用haskell编写的，github上smentic项目使用haskell编写的。<br>这是我目前接触到的函数编程语言的工业级项目。而sicp/common lisp/scala/clojure 因为当下的水平我并没有接触。<br>即使是一种精神寄托，我也希望它能产生一些安全感。既有机会用到生产之中。</p><p>关于入门计划<br>zhihu 祖于占前辈 提供了一个github的项目介绍了haskell的学习map[1]。<br>其中CIS194-spring13是完整的课程[2]。结合视频填补一下前期安装和使用的操作上的空白[3]<br>但是一个问题是这个课程的内容比较单薄，作业是非常有价值的部分，但是在学习上因为是课件的原因会丢失老师传授哦的一些环节。<br>learnyouahaskell[4]介绍的非常详细可以跟着敲过去。另外英语苦手或者想提高阅读速度的可以看中文版[5] </p><p>reference<br>[1] github <a href="https://github.com/bitemyapp/learnhaskell" target="_blank" rel="noopener">https://github.com/bitemyapp/learnhaskell</a><br>[2] <a href="https://www.seas.upenn.edu/~cis194/spring13/lectures.html" target="_blank" rel="noopener">https://www.seas.upenn.edu/~cis194/spring13/lectures.html</a><br>[3] <a href="https://www.youtube.com/watch?v=pIW-_E0w6h4&amp;list=PLAYqRAte9oRIChcPR_DD4uc8mCR6d3RiJ&amp;index=13" target="_blank" rel="noopener">https://www.youtube.com/watch?v=pIW-_E0w6h4&amp;list=PLAYqRAte9oRIChcPR_DD4uc8mCR6d3RiJ&amp;index=13</a><br>[4] <a href="http://learnyouahaskell.com/introduction" target="_blank" rel="noopener">http://learnyouahaskell.com/introduction</a><br>[5] <a href="https://github.com/MnO2/learnyouahaskell-zh" target="_blank" rel="noopener">https://github.com/MnO2/learnyouahaskell-zh</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;为什么学习haskell&lt;br&gt;学习haskell更像是一种精神寄托。这是一门很厉害的语言，如果学会它我也会变得很厉害。&lt;br&gt;可能是当下迷茫的状态，希望自己找点事情去做。关于为什么迷茫可能以后会写一写。&lt;/p&gt;
+&lt;p&gt;为什么学习haskell而不是其他的函数式编程语言&lt;b
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>how-to-blog</title>
