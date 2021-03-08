@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sailernote.github.io/"/>
-  <updated>2020-04-06T13:47:55.011Z</updated>
+  <updated>2020-07-20T18:17:11.040Z</updated>
   <id>https://sailernote.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>LRUCache</title>
+    <link href="https://sailernote.github.io/2020/07/21/LRUCache/"/>
+    <id>https://sailernote.github.io/2020/07/21/LRUCache/</id>
+    <published>2020-07-20T18:08:08.000Z</published>
+    <updated>2020-07-20T18:17:11.040Z</updated>
+    
+    <content type="html"><![CDATA[<p>LRU least recent uesed<br>hash table + doubly linked table<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;LRU least recent uesed&lt;br&gt;hash table + doubly linked table&lt;br&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span c
+      
+    
+    </summary>
+    
+    
+      <category term="数据结构" scheme="https://sailernote.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
   
   <entry>
     <title>learn-haskell-1</title>
@@ -81,6 +104,27 @@
   </entry>
   
   <entry>
+    <title>通过 storm ssh 连接 vps</title>
+    <link href="https://sailernote.github.io/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
+    <id>https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/</id>
+    <published>2019-03-15T06:31:34.042Z</published>
+    <updated>2019-03-15T06:31:34.042Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p><p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p><p>install storms<br><code>[sudo] pip install stromssh</code></p><p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p><p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p><p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p><p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p><p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p><p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p><p>connect vps<br><code>ssh vpsname</code></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;通过-storm-ssh-连接-vps&quot;&gt;&lt;a href=&quot;#通过-storm-ssh-连接-vps&quot; class=&quot;headerlink&quot; title=&quot;通过 storm ssh 连接 vps&quot;&gt;&lt;/a&gt;通过 storm ssh 连接 vps&lt;/h1&gt;&lt;p&gt;Vu
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>学习摘要 像素的一生 Life of Pixel</title>
     <link href="https://sailernote.github.io/2019/03/15/%E5%AD%A6%E4%B9%A0%E6%91%98%E8%A6%81%20%E5%83%8F%E7%B4%A0%E7%9A%84%E4%B8%80%E7%94%9F%20Life%20of%20Pixel/"/>
     <id>https://sailernote.github.io/2019/03/15/学习摘要 像素的一生 Life of Pixel/</id>
@@ -95,27 +139,6 @@
       
         &lt;h1 id=&quot;像素的一生-Life-of-Pixel&quot;&gt;&lt;a href=&quot;#像素的一生-Life-of-Pixel&quot; class=&quot;headerlink&quot; title=&quot;像素的一生 Life of Pixel&quot;&gt;&lt;/a&gt;像素的一生 Life of Pixel&lt;/h1&gt;&lt;hr&gt;
 
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>通过 storm ssh 连接 vps</title>
-    <link href="https://sailernote.github.io/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
-    <id>https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/</id>
-    <published>2019-03-15T06:31:34.042Z</published>
-    <updated>2019-03-15T06:31:34.042Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p><p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p><p>install storms<br><code>[sudo] pip install stromssh</code></p><p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p><p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p><p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p><p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p><p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p><p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p><p>connect vps<br><code>ssh vpsname</code></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;通过-storm-ssh-连接-vps&quot;&gt;&lt;a href=&quot;#通过-storm-ssh-连接-vps&quot; class=&quot;headerlink&quot; title=&quot;通过 storm ssh 连接 vps&quot;&gt;&lt;/a&gt;通过 storm ssh 连接 vps&lt;/h1&gt;&lt;p&gt;Vu
       
     
     </summary>

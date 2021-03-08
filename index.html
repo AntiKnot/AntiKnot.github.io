@@ -205,6 +205,65 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2020/07/21/LRUCache/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yansy">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SailerNote">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/07/21/LRUCache/" class="post-title-link" itemprop="url">LRUCache</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-07-21 02:08:08 / Modified: 02:17:11" itemprop="dateCreated datePublished" datetime="2020-07-21T02:08:08+08:00">2020-07-21</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>LRU least recent uesed<br>hash table + doubly linked table<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
     <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2020/04/06/learn-haskell-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -367,6 +426,73 @@
 
       
           <p>crontab 计时任务语法工具<br>summary: 会根据填写的命令，给出语意化的说明和下次触发的标准时间。<br>link: <a href="https://crontab.guru/#52_0-23_*_*_" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_</a>*</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
+    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Yansy">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SailerNote">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/03/15/通过 storm ssh 连接 vps/" class="post-title-link" itemprop="url">通过 storm ssh 连接 vps</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p>
+<p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p>
+<p>install storms<br><code>[sudo] pip install stromssh</code></p>
+<p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p>
+<p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p>
+<p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p>
+<p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p>
+<p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p>
+<p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p>
+<p>connect vps<br><code>ssh vpsname</code></p>
 
       
     </div>
@@ -591,73 +717,6 @@
 <p>end<br>很多复杂性都源自于对当时情况有意义，以及改进和设计策略，今天未必有意义。</p>
 <hr>
 <p>-EOF-</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/通过 storm ssh 连接 vps/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yansy">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SailerNote">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/03/15/通过 storm ssh 连接 vps/" class="post-title-link" itemprop="url">通过 storm ssh 连接 vps</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p>
-<p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p>
-<p>install storms<br><code>[sudo] pip install stromssh</code></p>
-<p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">success  vps added to your ssh config. you can connect it by typing &quot;ssh vps&quot;.</span><br></pre></td></tr></table></figure></p>
-<p>list vps<br><code>storm list</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote@computer  ~/.ssh  storm list </span><br><span class="line">Listing entries:</span><br><span class="line">vpsname -&gt; username@ip_address:port</span><br></pre></td></tr></table></figure></p>
-<p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p>
-<p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p>
-<p>ssh config<br>before<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    user username</span><br><span class="line">    port 22</span><br></pre></td></tr></table></figure></p>
-<p>after<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">    user root</span><br><span class="line">    usekeychain yes</span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">    port 22</span><br><span class="line">    addkeystoagent yes</span><br></pre></td></tr></table></figure></p>
-<p>connect vps<br><code>ssh vpsname</code></p>
 
       
     </div>
@@ -930,80 +989,6 @@
   
   
 
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-Hans">
-    <link itemprop="mainEntityOfPage" href="https://sailernote.github.io/2019/03/15/Install Nginx  with third package/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Yansy">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SailerNote">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/03/15/Install Nginx  with third package/" class="post-title-link" itemprop="url">Install Nginx  with third package</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2019-03-15 14:31:34" itemprop="dateCreated datePublished" datetime="2019-03-15T14:31:34+08:00">2019-03-15</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="Install-Nginx-with-third-package"><a href="#Install-Nginx-with-third-package" class="headerlink" title="Install Nginx  with third package"></a>Install Nginx  with third package</h1><hr>
-<h3 id="compling"><a href="#compling" class="headerlink" title="compling"></a>compling</h3><p>Nginx 添加第三方包的时候需要重新编译流程相对繁琐<br><code>nginx -v</code> 显示 nginx 版本号<br><code>nginx -V</code> 显示 nginx 的版本，编译器版本和配置参数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">configure arguments:&#123;... some package ...&#125;</span><br></pre></td></tr></table></figure></p>
-<p>configure arguments 后面的参数就是需要在nginx编译时源码下的参数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd nginx</span><br><span class="line">make clean</span><br><span class="line">./configure &#123;... some package --with-http_xxx_xxx --add-module=ngx_http_module --add-dynamic-module=ngx_http_module ...&#125;</span><br><span class="line">make</span><br></pre></td></tr></table></figure></p>
-<p>如果不是第一次安装nginx，<code>make</code> 之后不要 <code>make install</code>， 不然会覆盖系统下nginx文件，<br>生成的二进制文件在目录 <code>./objs</code> 下<br>如果是静态编译(<code>add-module</code>)则在nginx.conf中只需要直接配置就可以，<br>如果是动态编译(<code>add-dynamic-module</code>)则在nginx.conf 则需要在<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># nginx.conf</span><br><span class="line">load_module &quot;modules/ngx_http_xxxx_module.so&quot;;</span><br></pre></td></tr></table></figure></p>
-<p><code>ngx_http_xxxx_module.so</code> 文件是在 <code>make</code> 后 <code>/objs</code> 目录下，而 <code>load_module</code> 的目录是 <code>/usr/lib/nginx/modules</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo cp &lt;path&gt;/objs/ngx_http_xxxx_module.so /usr/lib/nginx/modules/</span><br></pre></td></tr></table></figure></p>
-<p>在nginx-1.9.x后的版本中加入了动态编译的feature，使用如下命令可以减少前面cp的步骤，下面操作完成了下载文件到<code>/usr/lib/nginx/modules</code>的过程<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo add-apt-repository ppa:nginx/stable</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install nginx-module-geoip</span><br></pre></td></tr></table></figure></p>
-<hr>
-<h3 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h3><p>编译好文件后使用-t -c来测试配置文件语法错误，而不是直接<br><code>nginx -s reload</code> 或者 <code>service nginx restart</code><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/sbin/nginx -t -c /etc/nginx/nginx.conf</span><br></pre></td></tr></table></figure></p>
-<p>查看当前使用的nginx是哪个<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps  -ef | grep nginx</span><br></pre></td></tr></table></figure></p>
-<p>master process 后面的就是 nginx的目录。<br>查看当前使用的nginx配置文件是哪个<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo nginx -t                                              </span><br><span class="line">[sudo] password for current_user:                             </span><br><span class="line">nginx: the configuration file /etc/nginx/nginx.conf syntax is ok                                                      </span><br><span class="line">nginx: configuration file /etc/nginx/nginx.conf test is successful</span><br></pre></td></tr></table></figure></p>
-<hr>
-<h3 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h3><p>Github vozlt/nginx-module-vts<br><a href="https://github.com/vozlt/nginx-module-vts/blob/master/config" target="_blank" rel="noopener">https://github.com/vozlt/nginx-module-vts/blob/master/config</a><br>尝试安装的三方包，用于监控nginx的模块    </p>
-<p>《Compiling Third-Party Modules Into Nginx》<br><a href="https://serversforhackers.com/c/compiling-third-party-modules-into-nginx" target="_blank" rel="noopener">https://serversforhackers.com/c/compiling-third-party-modules-into-nginx</a></p>
-<p>《nginx无痛升级并增加nginx-gridfs模块支持》<br><a href="https://blog.csdn.net/sasoritattoo/article/details/17270631" target="_blank" rel="noopener">https://blog.csdn.net/sasoritattoo/article/details/17270631</a><br>这里给出了一些常见的错误解决方法。</p>
-<p>《How to enable dynamic module with an existing NGINX installation<br>》Stackoverflow<br><a href="https://stackoverflow.com/questions/36554405/how-to-enable-dynamic-module-with-an-existing-nginx-installation" target="_blank" rel="noopener">https://stackoverflow.com/questions/36554405/how-to-enable-dynamic-module-with-an-existing-nginx-installation</a></p>
-<hr>
-<p>EOF</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
 
   
@@ -1074,9 +1059,13 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">posts</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">tags</span>
       </div>
   </nav>
 </div>
@@ -1108,7 +1097,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2020</span>
+  <span itemprop="copyrightYear">2021</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
