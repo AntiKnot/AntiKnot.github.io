@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://sailernote.github.io/"/>
-  <updated>2020-04-06T13:27:08.340Z</updated>
+  <updated>2021-04-27T03:11:56.695Z</updated>
   <id>https://sailernote.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Writeup HackTheBox ScriptKiddle</title>
+    <link href="https://sailernote.github.io/2021/04/27/Writeup-HackTheBox-ScriptKiddle/"/>
+    <id>https://sailernote.github.io/2021/04/27/Writeup-HackTheBox-ScriptKiddle/</id>
+    <published>2021-04-27T02:45:13.000Z</published>
+    <updated>2021-04-27T03:11:56.695Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Writeup-HackTheBox-ScriptKiddle"><a href="#Writeup-HackTheBox-ScriptKiddle" class="headerlink" title="Writeup HackTheBox ScriptKiddle"></a>Writeup HackTheBox ScriptKiddle</h1><p>under construction</p><h2 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h2><h3 id="if-you-cant-find-exploit"><a href="#if-you-cant-find-exploit" class="headerlink" title="if you cant find exploit"></a>if you cant find exploit</h3><p>if command, search result nothing.<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection</span><br></pre></td></tr></table></figure></p><p>download file into <code>/usr/share/metasploit-framework/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb</code> <a href="https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb" target="_blank" rel="noopener">github rapid7 metasploit_msfvenom_api_template_cmd_injection.rb</a></p><p>and run command in msf<br><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">reload</span>_all</span><br></pre></td></tr></table></figure></p><h3 id="echo-redirect-into-file-with-permission-but-nothing-write-in-it"><a href="#echo-redirect-into-file-with-permission-but-nothing-write-in-it" class="headerlink" title="echo redirect into file with permission but nothing write in it."></a>echo redirect into file with permission but nothing write in it.</h3><p>search about <code>incorn</code></p><h3 id="shell-not-work"><a href="#shell-not-work" class="headerlink" title="shell not work"></a>shell not work</h3><p>Errors may occur at the same time, break down the steps, and verify one by one. You need to have an expectation before each step is executed, and observe side effects such as output. Try to run locally to find different places.</p><h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p>exploit-file <a href="https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb" target="_blank" rel="noopener">https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb</a></p><p>rapid7 <a href="https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/" target="_blank" rel="noopener">https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/</a></p><p>exploit-db <a href="https://www.exploit-db.com/exploits/49491" target="_blank" rel="noopener">https://www.exploit-db.com/exploits/49491</a></p><p>incornd <a href="https://www.geeksforgeeks.org/incron-command-in-linux-with-examples/" target="_blank" rel="noopener">https://www.geeksforgeeks.org/incron-command-in-linux-with-examples/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Writeup-HackTheBox-ScriptKiddle&quot;&gt;&lt;a href=&quot;#Writeup-HackTheBox-ScriptKiddle&quot; class=&quot;headerlink&quot; title=&quot;Writeup HackTheBox ScriptKiddl
+      
+    
+    </summary>
+    
+    
+      <category term="Writeup" scheme="https://sailernote.github.io/tags/Writeup/"/>
+    
+      <category term="HackTheBox" scheme="https://sailernote.github.io/tags/HackTheBox/"/>
+    
+  </entry>
   
   <entry>
     <title>how-to-blog</title>
