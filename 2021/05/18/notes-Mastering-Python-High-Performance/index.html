@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="Archive: 2021 [ SailerNote ] "><meta name="theme-color" content="#ebc65a"><title>Archive: 2021 [ SailerNote ] </title><style>@font-face {
+<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.9.0"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><meta name="description" content="[reading] Mastering Python High Performance [ SailerNote ] "><meta name="theme-color" content="#ebc65a"><title>[reading] Mastering Python High Performance [ SailerNote ] </title><style>@font-face {
   font-family: 'Abril Fatface';
   font-style: normal;
   font-weight: 400;
@@ -15,4 +15,274 @@
 </style><link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/index.css"><script src="https://cdn.bootcss.com/highlight.js/9.6.0/highlight.min.js" defer></script><script src="/js/paper.js" defer></script><script src="https://www.googletagmanager.com/gtag/js?id=xx-xxxxxxx-xx" async></script><script>window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'xx-xxxxxxx-xx');</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"></head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a>SailerNote</a></h1><p></p></div></div><div class="paper-container"><div class="archive-view"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">Archive: 2021</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><div class="posts"><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/05/18/notes-Mastering-Python-High-Performance/">[reading] Mastering Python High Performance</a></h2><span class="post__date">2021-05-18</span><a href="/tags/python/"><span class="post__tags">#python</span></a><a href="/tags/profiling/"><span class="post__tags">#profiling</span></a><a href="/tags/optimization/"><span class="post__tags">#optimization</span></a></div><div class="posts-item"><h2 class="posts-item__title"><a href="/2021/04/27/Writeup-HackTheBox-ScriptKiddle/">Writeup HackTheBox ScriptKiddle</a></h2><span class="post__date">2021-04-27</span><a href="/tags/Writeup/"><span class="post__tags">#Writeup</span></a><a href="/tags/HackTheBox/"><span class="post__tags">#HackTheBox</span></a></div></div><div class="sidebar"><h2>Links</h2><div class="sidebar__link"><ul><li><a href="https://github.com/SailerNote || github">GitHub</a></li><li><a href="/atom.xml || rss">RSS</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HackTheBox/">HackTheBox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Writeup/">Writeup</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/optimization/">optimization</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/profiling/">profiling</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li></ul></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="paginator"><span class="page-number current">1</span></div></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>
+gtag('config', 'xx-xxxxxxx-xx');</script><link rel="stylesheet" href="/css/tocbot.css"><script src="/js/tocbot.js" defer></script><script>window.addEventListener('DOMContentLoaded', () => {
+  tocbot.init({
+    // Where to render the table of contents.
+    tocSelector: '.toc__content',
+    // Where to grab the headings to build the table of contents.
+    contentSelector: '.article__content',
+    // Which headings to grab inside of the contentSelector element.
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    // For headings inside relative or absolute positioned containers within content.
+    hasInnerContainers: true,
+    orderedList: false,
+    collapseDepth: 2,
+  });
+})</script><link rel="preload" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/github.min.css"><link rel="preload" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface&amp;display=swap"></head><body><div class="mask-border"></div><div class="head"><div class="head__inner"><h1><a>SailerNote</a></h1><p></p></div></div><div class="paper-container"><div class="main"><div class="location-bar"><div class="line-1"><div class="horizontal-line" style="height: 3px"></div></div><div class="line-2"><div class="horizontal-line" style="height: 1px"></div></div><p class="text">[reading] Mastering Python High Performance</p><div class="switch-button"><input class="container_toggle" type="checkbox" id="switch" name="mode"><label for="switch">Toggle</label></div><div class="line-3"><div class="horizontal-line" style="height: 1px"></div></div></div><div class="main__2-col"><article class="post-view__article"><div class="article__infomation"><div class="posts-item"><h2 class="posts-item__title"><a href>[reading] Mastering Python High Performance</a></h2><span class="post__date">2021-05-18</span><a href="/tags/python/"><span class="post__tags">#python</span></a><a href="/tags/profiling/"><span class="post__tags">#profiling</span></a><a href="/tags/optimization/"><span class="post__tags">#optimization</span></a></div></div><div class="article__content"><p>Methodology</p>
+<ul>
+<li>event-based profiling  <ul>
+<li>language<ul>
+<li>python<ul>
+<li>sys.setprofile <code>python_[call|return|exception]</code> <code>c_[call|return|exception]</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>event-based profiler | tracing profiler</li>
+</ul>
+</li>
+<li>statistical profiling<ul>
+<li>less data</li>
+<li>less effect performance (profiler will have a negative effect)</li>
+<li>Oprofile</li>
+<li>statprof</li>
+</ul>
+</li>
+<li>vector<ul>
+<li>operation time</li>
+</ul>
+</li>
+<li>bottleneck<ul>
+<li>I/O<ul>
+<li>disk</li>
+<li>network</li>
+<li>sql</li>
+</ul>
+</li>
+<li>memory<ul>
+<li>no enough memory</li>
+<li>loading data, but not release</li>
+<li>avg | max |min</li>
+</ul>
+</li>
+<li>slow*times</li>
+<li>noCache*times</li>
+</ul>
+</li>
+<li>Running Time Complexity, RTC, big O notation</li>
+<li>practice<ul>
+<li>Regression Testing () </li>
+</ul>
+</li>
+<li>profiling before optimization</li>
+<li>coverage</li>
+<li>unitest<ul>
+<li>Don’t let the modification destroy the normal operation of the program.</li>
+</ul>
+</li>
+<li>framework<ul>
+<li>repeat manual work.</li>
+<li>multi Progress.</li>
+</ul>
+</li>
+<li>be patient.</li>
+<li>collect everthing<ul>
+<li>system log</li>
+<li>user defined log</li>
+<li>system Snapshot</li>
+</ul>
+</li>
+<li>Pretreatment<ul>
+<li>ETL</li>
+</ul>
+</li>
+<li>profier<ul>
+<li>cProfile<ul>
+<li>info<ul>
+<li>ncalls</li>
+<li>tottime: find bad loop</li>
+<li>percall<ul>
+<li>n: call times</li>
+<li>n/m: total-times/recursion-times</li>
+</ul>
+</li>
+<li>cumtime: function+=sub-function-call…</li>
+<li>percall: tottime/ncalls</li>
+<li>filename:lineno(function): location</li>
+</ul>
+</li>
+<li>api<ul>
+<li>run: </li>
+<li>runctx: save result into file</li>
+<li>Profile</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>pstats<ul>
+<li>prof:=cProfile</li>
+<li>pstats(prof)</li>
+<li>profile.Stats+cProfile.Profile</li>
+</ul>
+</li>
+<li>line_profiler<ul>
+<li><code>kernprof -l file.py</code> -&gt; file.py.lprof</li>
+<li>Line</li>
+<li>Hints</li>
+<li>Time</li>
+<li>Per hit</li>
+<li>% time</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Visualization<ul>
+<li>KCacheGrind/pyprof2calltree: cProfile-&gt;KCacheGrind</li>
+<li>RunSnakeRUn: cProfile onlypyhon2 </li>
+</ul>
+</li>
+<li>method<ul>
+<li>memoization<ul>
+<li>default agrument + static argument + cache: fastest</li>
+</ul>
+</li>
+<li>lookup table</li>
+<li>dis + complie <ul>
+<li><code>dis.disassemble(compile(text,&#39;&lt;string&gt;&#39;,&#39;exec&#39;))</code></li>
+<li>compare Instruction Set</li>
+</ul>
+</li>
+<li>generator expression</li>
+<li>ctypes<ul>
+<li>cdll</li>
+</ul>
+</li>
+<li>stirng<ul>
+<li><code>join</code> &amp;&amp; <code>+=</code></li>
+</ul>
+</li>
+<li>collection.deque</li>
+<li><code>while 1</code> better than <code>while True</code></li>
+<li>namedtuple better than class instance</li>
+<li>nultiple assignments is slow.</li>
+</ul>
+</li>
+<li>multithreading vs. multiprocessing<ul>
+<li>concurrency<ul>
+<li>time slicing </li>
+</ul>
+</li>
+<li>parallelism<ul>
+<li>CUDA</li>
+<li>OpenCL</li>
+</ul>
+</li>
+<li>multithreading<ul>
+<li>package<ul>
+<li>thread<ul>
+<li>allocate_lock<ul>
+<li>acquire</li>
+<li>release</li>
+<li>locked</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>threading<ul>
+<li>join: pending on thrading task </li>
+<li>conmmunation<ul>
+<li>event<ul>
+<li>is_set</li>
+<li>set</li>
+<li>clear</li>
+<li>wait</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>pros <ul>
+<li>continued response</li>
+<li>faster (use multi core)</li>
+<li>less memory</li>
+<li>simple state share</li>
+<li>simple thread communication</li>
+</ul>
+</li>
+<li>cons<ul>
+<li>race condition</li>
+<li>A crash in a thread takes down the whole process.</li>
+<li>deadlock</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>multiprocessing<ul>
+<li>package<ul>
+<li>multipricessing<ul>
+<li><code>multiprocessing.Process(target=foo,args(&quot;bar&quot;))</code></li>
+<li><code>p.terminate()</code></li>
+<li><code>p.start()</code></li>
+<li><code>p.join()</code></li>
+<li><code>p.exitcode</code></li>
+<li>Pool<ul>
+<li>apply</li>
+<li>apply_async<ul>
+<li>ApplyResult<ul>
+<li>get()</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>communation<ul>
+<li>Queue</li>
+<li>Pipe</li>
+<li>Event</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>prod<ul>
+<li>multi core</li>
+<li>independent memory space</li>
+<li>killable</li>
+<li>GIL</li>
+</ul>
+</li>
+<li>cons<ul>
+<li>more memory </li>
+<li>IPC complex than multithreading</li>
+<li>share data complex</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>common<ul>
+<li>PyPy<ul>
+<li>speed JIT</li>
+<li>memory less</li>
+<li>sandboxing</li>
+<li>stackless</li>
+</ul>
+</li>
+<li>cStringIO</li>
+<li>Cython</li>
+</ul>
+</li>
+<li>number crunching<ul>
+<li>Numba: numba jit, numpy</li>
+<li>Parakeet</li>
+<li>pandas</li>
+</ul>
+</li>
+</ul>
+</div></article><div class="post-view__sidebar"><div class="sidebar"><div class="tocbot"><h2>Toc</h2><div class="toc__content"></div></div><h2>Links</h2><div class="sidebar__link"><ul><li><a href="https://github.com/SailerNote || github">GitHub</a></li><li><a href="/atom.xml || rss">RSS</a></li></ul></div><h2>Archives</h2><div class="sidebar__archives"><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/">2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/">2019</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a></li></ul></div><h2>Categories</h2><div class="sidebar__categories"></div><h2>Tags</h2><div class="sidebar__tags"><ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HackTheBox/">HackTheBox</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Writeup/">Writeup</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/optimization/">optimization</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/profiling/">profiling</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li></ul></div></div></div></div><div class="horizontal-line" style="height: 1px"></div><div class="main__bottom"><div class="pre-next"><a class="pre-button">没有更多</a><a class="next-button" href="/2021/04/27/Writeup-HackTheBox-ScriptKiddle/">Writeup HackTheBox ScriptKiddle</a></div></div></div></div><div class="footer"><span>©️2019-2021 Designed By&nbsp;<strong><a href="https://github.com/random-yang">RandomYang</a></strong> Powered By&nbsp;</span><strong><a href="https://hexo.io">hexo</a></strong></div><div class="darkmode-mask" id="darkmode-mask"></div><div class="sidebar__button"></div></body></html>

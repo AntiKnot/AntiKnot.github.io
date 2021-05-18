@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>[reading] Mastering Python High Performance</title>
+      <link href="/2021/05/18/notes-Mastering-Python-High-Performance/"/>
+      <url>/2021/05/18/notes-Mastering-Python-High-Performance/</url>
+      
+        <content type="html"><![CDATA[<p>Methodology</p><ul><li>event-based profiling  <ul><li>language<ul><li>python<ul><li>sys.setprofile <code>python_[call|return|exception]</code> <code>c_[call|return|exception]</code></li></ul></li></ul></li><li>event-based profiler | tracing profiler</li></ul></li><li>statistical profiling<ul><li>less data</li><li>less effect performance (profiler will have a negative effect)</li><li>Oprofile</li><li>statprof</li></ul></li><li>vector<ul><li>operation time</li></ul></li><li>bottleneck<ul><li>I/O<ul><li>disk</li><li>network</li><li>sql</li></ul></li><li>memory<ul><li>no enough memory</li><li>loading data, but not release</li><li>avg | max |min</li></ul></li><li>slow*times</li><li>noCache*times</li></ul></li><li>Running Time Complexity, RTC, big O notation</li><li>practice<ul><li>Regression Testing () </li></ul></li><li>profiling before optimization</li><li>coverage</li><li>unitest<ul><li>Don’t let the modification destroy the normal operation of the program.</li></ul></li><li>framework<ul><li>repeat manual work.</li><li>multi Progress.</li></ul></li><li>be patient.</li><li>collect everthing<ul><li>system log</li><li>user defined log</li><li>system Snapshot</li></ul></li><li>Pretreatment<ul><li>ETL</li></ul></li><li>profier<ul><li>cProfile<ul><li>info<ul><li>ncalls</li><li>tottime: find bad loop</li><li>percall<ul><li>n: call times</li><li>n/m: total-times/recursion-times</li></ul></li><li>cumtime: function+=sub-function-call…</li><li>percall: tottime/ncalls</li><li>filename:lineno(function): location</li></ul></li><li>api<ul><li>run: </li><li>runctx: save result into file</li><li>Profile</li></ul></li></ul></li><li>pstats<ul><li>prof:=cProfile</li><li>pstats(prof)</li><li>profile.Stats+cProfile.Profile</li></ul></li><li>line_profiler<ul><li><code>kernprof -l file.py</code> -&gt; file.py.lprof</li><li>Line</li><li>Hints</li><li>Time</li><li>Per hit</li><li>% time</li></ul></li></ul></li><li>Visualization<ul><li>KCacheGrind/pyprof2calltree: cProfile-&gt;KCacheGrind</li><li>RunSnakeRUn: cProfile onlypyhon2 </li></ul></li><li>method<ul><li>memoization<ul><li>default agrument + static argument + cache: fastest</li></ul></li><li>lookup table</li><li>dis + complie <ul><li><code>dis.disassemble(compile(text,&#39;&lt;string&gt;&#39;,&#39;exec&#39;))</code></li><li>compare Instruction Set</li></ul></li><li>generator expression</li><li>ctypes<ul><li>cdll</li></ul></li><li>stirng<ul><li><code>join</code> &amp;&amp; <code>+=</code></li></ul></li><li>collection.deque</li><li><code>while 1</code> better than <code>while True</code></li><li>namedtuple better than class instance</li><li>nultiple assignments is slow.</li></ul></li><li>multithreading vs. multiprocessing<ul><li>concurrency<ul><li>time slicing </li></ul></li><li>parallelism<ul><li>CUDA</li><li>OpenCL</li></ul></li><li>multithreading<ul><li>package<ul><li>thread<ul><li>allocate_lock<ul><li>acquire</li><li>release</li><li>locked</li></ul></li></ul></li><li>threading<ul><li>join: pending on thrading task </li><li>conmmunation<ul><li>event<ul><li>is_set</li><li>set</li><li>clear</li><li>wait</li></ul></li></ul></li></ul></li></ul></li><li>pros <ul><li>continued response</li><li>faster (use multi core)</li><li>less memory</li><li>simple state share</li><li>simple thread communication</li></ul></li><li>cons<ul><li>race condition</li><li>A crash in a thread takes down the whole process.</li><li>deadlock</li></ul></li></ul></li><li>multiprocessing<ul><li>package<ul><li>multipricessing<ul><li><code>multiprocessing.Process(target=foo,args(&quot;bar&quot;))</code></li><li><code>p.terminate()</code></li><li><code>p.start()</code></li><li><code>p.join()</code></li><li><code>p.exitcode</code></li><li>Pool<ul><li>apply</li><li>apply_async<ul><li>ApplyResult<ul><li>get()</li></ul></li></ul></li></ul></li><li>communation<ul><li>Queue</li><li>Pipe</li><li>Event</li></ul></li></ul></li></ul></li><li>prod<ul><li>multi core</li><li>independent memory space</li><li>killable</li><li>GIL</li></ul></li><li>cons<ul><li>more memory </li><li>IPC complex than multithreading</li><li>share data complex</li></ul></li></ul></li></ul></li><li>common<ul><li>PyPy<ul><li>speed JIT</li><li>memory less</li><li>sandboxing</li><li>stackless</li></ul></li><li>cStringIO</li><li>Cython</li></ul></li><li>number crunching<ul><li>Numba: numba jit, numpy</li><li>Parakeet</li><li>pandas</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> profiling </tag>
+            
+            <tag> optimization </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Writeup HackTheBox ScriptKiddle</title>
       <link href="/2021/04/27/Writeup-HackTheBox-ScriptKiddle/"/>
       <url>/2021/04/27/Writeup-HackTheBox-ScriptKiddle/</url>
