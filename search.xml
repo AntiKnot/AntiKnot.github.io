@@ -1,481 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>[reading] Mind Body World &amp; C1</title>
-    <url>/2021/06/24/reading-Mind-Body-World/</url>
-    <content><![CDATA[<p>1.0 Chapter Overview<br>实验心理学学科内部的分裂，认知过程视为一种信息处理，使得认知科学成为高度统一的学科。</p>
-<ul>
-<li>古典认知科学</li>
-<li>联结主义认知科学</li>
-<li>体现认知科学</li>
-</ul>
-<p>问题</p>
-<ul>
-<li>共同的核心假设是什么？</li>
-<li>只有一种认知科学还是很多种认知科学？</li>
-</ul>
-<p>为了统一认知论，提出了一个核心的假设</p>
-<blockquote>
-<p>认知是信息的处理。认知科学通过调用信息处理解释来解释人类的认知。然而，信息处理者本身需要在非常不同的分析水平上构建解释性说明</p>
-</blockquote>
-<p>比如3岁的幼仔和14岁的成年个体在认知水平上不一致。</p>
-<p>方法</p>
-<blockquote>
-<p>Marr（1982）提出信息处理器需要在计算、算法和实现层面上进行解释。在计算层面，正式的证明被用来确定什么信息处理问题正在被解决。在算法层面，实验观察和计算机模拟被用来确定用于解决信息处理问题的特定信息处理步骤。在实现层面，生物或物理方法用于确定实际实例化信息处理步骤的机械原理。此外，对信息处理器的完整解释需要在这些不同层次的分析之间建立联系。</p>
-</blockquote>
-<p>计算： 参数输入和结果输出<br>算法： 对参数的处理步骤<br>实现： 对认知的影响需要从生物学和物理学的方法对信息处理个体进行干预。</p>
-<p>认知是信息处理的这种假设可以将各个学科统一起来，用自己学科的用语言解释但是统一到一个分析框架上来。</p>
-<blockquote>
-<p>认知科学是多门学科交汇的地方，但还不是一门独立的学科。</p>
-</blockquote>
-<p>但不同学科的不同解释，给人以学科不相溶的感觉。</p>
-<p>（我不太理解文中<strong>连贯性</strong>的意思）</p>
-<blockquote>
-<p>尽管一些研究者已经注意到大脑可能不像计算机那样工作，但大脑仍然被认为是数字化的，因为动作电位的全或无生成被解释为等同于在布尔逻辑中分配真值</p>
-</blockquote>
-<ul>
-<li>古典认知学科<ul>
-<li>规则控制的符号操作<ul>
-<li>思维工件扩散</li>
-<li>专家系统<blockquote>
-<p>经典方法的成功是在适定问题领域，这类问题具有明确定义的知识状态和目标状态，更不用说将一种知识状态转换为另一种知识状态的明确定义操作。如果一个问题是适定的，那么它的解决方案可以描述为通过问题空间的搜索，并且计算机可以被编程来执行这个搜索（Newell&amp;Simon，1972）。然而，这种强调导致了对经典方法越来越多的批评。一个普遍的问题是，人类的认知是否远远超出了仅仅在解决适定问题时所能捕捉到的范围（Dreyfus，1992；塞尔，1980年；魏森鲍姆，1976）。事实上，经典方法擅长于制作游戏和解决问题的计算机模拟，但在语音识别、语言翻译或计算机视觉等领域没有取得巨大成功。”总体格局已初具规模。基于简单任务的轻松完成或复杂任务的低质量工作而取得的早期的巨大成功,然后是收益递减、幻灭，在某些情况下还有悲观主义</p>
-</blockquote>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>人类在没有训练的情况下擅长的许多能力，比如说、看和走路，似乎超出了经典认知科学的掌握范围。这些能力包括处理不适定问题。不适定问题是一个非常模糊的问题，它的知识状态和目标状态定义不清，并且涉及到操作知识的定义不清的操作。因此，它不太适合于经典分析，因为不能为不适定问题定义问题空间。这表明数字计算机对人类进行的信息处理的定义很差。”在我们看来，人们比今天的计算机更聪明，因为大脑采用了一种基本的计算架构，这种架构更适合处理人们非常擅长的自然信息处理任务的中心方面”（Rumelhart&amp;McClelland，1986 c，p。三</p>
-</blockquote>
-<blockquote>
-<p>连接主义认知科学反对古典认知科学，提出了一种与数字计算机隐喻所启发的认知结构有质的不同（Bechtel&amp;Abrahamsen，2002；丘奇兰、科赫和塞伊诺夫斯基，1990年；丘奇兰和塞伊诺夫斯基，1992年；克拉克，1989年，1993年；Horgan&amp;Tienson，1996年；昆兰，1991年）。连接论者认为，信息处理的经典概念的问题在于它忽视了大脑的基本属性。连接主义把自己塑造成一个受神经元启发，在生物学上看似合理的经典认知科学的替代品（Bechtel&amp;Abrahamsen，2002；麦克莱兰和鲁梅尔哈特，1986年；Rumelhart&amp;McClelland，1986年c）。”我相信，没有一项关于心灵的严肃研究（包括哲学研究）能够在[经典]认知科学家已经习惯的那种生物真空中进行”</p>
-</blockquote>
-<blockquote>
-<p>连接主义提出的体系结构是人工神经网络（Caudill&amp;Butler，1992a，1992b；道森，2004、2005；王尔德，1997年；Muller&amp;Reinhardt，1990年；罗哈斯，1996年）。人工神经网络是一个简单的处理器系统，类似于神经元，它们并行工作，通过类似于突触的加权连接互相发送信号。由输入处理器检测到的信号被转换成响应，该响应在一组输出处理器中表示为活动。连接权值决定了网络中的输入输出关系，但它们不是程序化的。相反，使用学习规则来修改权重。人工神经网络以身作则。</p>
-</blockquote>
-<blockquote>
-<p>人工神经网络否定了数字计算机的许多基本特性（冯诺依曼，1958）。大脑是一个由串行中央控制器控制的数字符号操纵器的想法已经不复存在了。取而代之的是，大脑的过程被描述为亚符号的和平行的（Smolensky，1988）；这些过程的控制是分散的。结构和过程之间的经典区别已经消失了，在这种区别中，一组明确的规则操纵着认知科学：一个还是多个？9个离散符号存储在单独的存储器中。取而代之的是，大脑被视为一个分布式系统，在这个系统中，问题的解决方案来自于大量简单处理器的并行活动：网络既是结构又是过程，网络同时存储和修改信息（Hillis，1985）。信息处理类似于逻辑的假设已经不复存在了（Oaksford&amp;Chater，1991）。取而代之的是，连接论者将大脑视为一个动态的统计模式识别器。</p>
-</blockquote>
-<blockquote>
-<p>尽管有了这些变化，连接主义仍然把自己的认知看作是一种不同的信息处理：“这些不同并不意味着大脑不是计算机，而仅仅意味着大脑不是串行数字计算机”（Churchland，Koch，&amp;Sejnowski，1990，p。48，斜体原件）。认知的联结主义模型和经典模拟有着同样悠久的历史（道森，2004；梅德勒，1998年）。McCulloch和Pitts在20世纪40年代描述了Powerful神经网络模型（McCulloch，1988a），Rosenblatt（19581962）的感知器是简单的人工神经网络，它们不是程序化的，而是从示例中学习的。由于证明了简单人工神经网络的局限性，这种研究在20世纪60年代末逐渐衰落</p>
-</blockquote>
-<blockquote>
-<p>然而，早在1980年代中期，早期网络的局限性得到克服，那时发现新技术允许更多的电力网络从示例中学习（Ackley、Hinton和Sejnowski，1985年）；伦德哈特，辛顿和威廉姆斯，1986b）。由于这些新技术，现代康涅狄格主义已经取得了与古典认知科学几乎同等的地位。人工神经网络已经被用于建模一系列不适定问题，产生了许多专家系统，并成功地模拟了曾经被认为是经典方法所独有的领域</p>
-</blockquote>
-<blockquote>
-<p>一方面，古典认知科学家认为连接主义的兴起是认知主义成功取代的联想主义和行为主义心理学的重生.因为连接主义避开了规则和符号，古典主义者认为它不足以解释思想和语言的规则性</p>
-</blockquote>
-<blockquote>
-<p>连接主义模型的问题是，所有认为它们可能是真的理由都是认为它们不可能是心理学的理由”（Fodor&amp;Pylyshyn，1988，p。66). 美国一则关于连接主义专家系统的科学新闻报道，包括Pylyshyn将连接主义与巫毒的比较：“人们对通过巫毒获得神秘的弗兰肯斯坦式的智慧的前景着迷！很少有人能像神经网络那样成功地做到这一点”（Stix，1994，p。44). 解释联结主义网络内部结构的困难被用来反驳他们为认知科学提供模型、理论甚至示范的能力（McCloskey，1991）<br>(神经网络无法解释规则性，也无法解释其内部结构)</p>
-</blockquote>
-<blockquote>
-<p>另一方面，毫不奇怪的是，连接主义研究者们也做出了同样的回答。其中一些回应是关于古典建筑固有问题的争论（例如，缓慢、脆弱的模型），结合连接主义建筑为这些问题提供解决方案的主张（Feldman&amp;Ballard，1982；Rumelhart和McClelland，1986年c）。其他人则认为，经典模型未能充分说明人类认知的实验研究（Oaksford、Chater和Stenning，1990）。连接主义的实践者甚至声称他们为认知科学提供了一种范式转换</p>
-</blockquote>
-<p>古典和连接学派的模型是 感知-思维-行动，具体行为学派则是，感知-行动。认为前两个学派具有唯我性，但大脑并不具备思考能力，只是控制器。</p>
-<blockquote>
-<p>具身认知科学认为大脑是一个控制器，而不是一个计划者。”人们认识到，最近提到的所谓的中央情报系统或核心人工智能可能是一种不必要的幻觉，所有情报的力量都来自感知和驱动系统的耦合”</p>
-</blockquote>
-<blockquote>
-<p>通过提出扩展心智假说，体现认知科学也与经典认知科学和联结主义认知科学保持了距离（克拉克，1997，1999，2003，2008；威尔逊，2004年和2005年）。根据扩展心智假说，心智并不是通过头骨与世界分离的。相反，心灵和世界之间的界限是模糊的，或者已经消失了。扩展思维的一个结果是认知支架，通过外部世界作为支持，增强了“经典”认知的能力。一个简单的例子是通过使用外部辅助工具（如记事本）来扩展内存。然而，如果使用适当的工件，则可以将完整的信息处理放到世界中。Hutchins（1995）提供了许多将计算具体化的导航工具的例子似乎大部分的计算都是由认知科学完成的：一个还是多个？13工具，或由其设计者。因为工具做得更多，人们可以通过做得更少而获得成功</p>
-</blockquote>
-<blockquote>
-<p>在具身认知阵营中发现了进一步的分裂（Robbins&amp;Aydede，2009；夏皮罗，2011）。具体化认知科学家之间对于他们的每一个激进观点被接受的程度有着强烈的分歧。例如，Clark（1997）认为在具身认知科学中存在表征的空间，而Chemero（2009）则没有</p>
-</blockquote>
-<p>具身认知</p>
-<ul>
-<li>存在表征空间</li>
-<li>不存在表征空间</li>
-</ul>
-<p>认知心理学中「表征」的概念是什么？<br><a href="https://www.zhihu.com/question/21000475" target="_blank" rel="noopener">https://www.zhihu.com/question/21000475</a><br>认知心理学中「表征」的概念是什么？ - Koten的回答 - 知乎<br><a href="https://www.zhihu.com/question/21000475/answer/218984656" target="_blank" rel="noopener">https://www.zhihu.com/question/21000475/answer/218984656</a></p>
-<p>认知心理学中「表征」的概念是什么？ - 「已注销」的回答 - 知乎<br><a href="https://www.zhihu.com/question/21000475/answer/260874482" target="_blank" rel="noopener">https://www.zhihu.com/question/21000475/answer/260874482</a></p>
-<blockquote>
-<p>但毕竟心灵是看不见摸不到的，最多只能通过内省和行为反应来间接推测。</p>
-</blockquote>
-<p>1.4认知科学：前范式</p>
-<blockquote>
-<p>在短篇小说《巴别塔图书馆》中，豪尔赫·路易斯·博尔赫斯（Jorge Luis Borges，1962）将宇宙想象成图书馆，一个由螺旋楼梯连接在一起的无限六边形房间。每个房间里的书数量完全相同，每本书有410页，全部以相同的格式印刷。图书馆员认为图书馆藏有所有可能的书，也就是说，一组有限的正字法符号的所有可能的排列。他们相信“图书馆是完整的，它的书架登记着。所有被给予表达的东西，用所有的语言”</p>
-</blockquote>
-<blockquote>
-<p>博尔赫斯的图书馆员一生都在整理那些几乎无法理解的书籍，寻找那些解释“人类基本奥秘”的书籍（博尔赫斯，1962，p。55). 这种探索的核心是相信存在一种语言来表达这些答案。”同样的道理，这些严重的谜团可以用文字来解释：如果哲学家的语言还不够，多样化的图书馆将产生前所未有的语言，包括它的词汇和语法</p>
-</blockquote>
-<blockquote>
-<p>在现代科学哲学中，一种不同类型的交流中断是一个共同的主题。有人认为，一些科学理论与其他理论是不可测量的（费耶拉本德，1975；库恩，1970）。不可通约科学理论是由于某些或所有理论术语之间没有逻辑或有意义的关系而无法比较的理论。库恩认为，如果在一门科学中，不同的研究人员在不同的范式下工作，就会出现这种情况。在新的范式中，旧的术语、概念和认知科学：实验彼此之间建立了新的关系。不可避免的结果是，我们必须称之为两个学派之间的误解，尽管这个术语并不完全正确”（库恩，1970，p。149). 库恩认为不同范式的持有者是不同语言社区的成员，即使他们用同一种白话文写作！范式的差异导致了交流的中断</p>
-</blockquote>
-<blockquote>
-<p>前范式科学存在于一种混乱和支离破碎的状态中，因为数据是在缺乏统一信仰的情况下收集和解释的。”在任何科学发展的早期阶段，不同的人面对相同范围的现象，但通常不是所有相同的特定现象，用不同的方式来描述和解释它们”（库恩，1970，p。17). 我的怀疑是，认知科学已经就它认为应该解释的各种现象达成了一些普遍共识。然而，对于它认为有必要提供所需解释的技术细节的种类，它是预先范式。在之前的一本书中，我认为认知是信息处理的假设为认知科学的“语言”提供了一个框架，使跨学科对话成为可能（Dawson，1998）。我证明了当这个框架被应用时，古典认知科学和连接主义认知科学之间的相似性大于差异性。这些相似性的根源在于，古典认知科学和联结主义认知科学都采用了信息加工假说。因此，这两个学派的思想可以检查和比较使用马尔（1982年）不同层次的分析。可以证明，经典认知科学和连接主义认知科学在计算和算法分析层面上高度相关（Dawson，1998，2009）</p>
-</blockquote>
-<p>在发展成两个学派前的发展方式具有统一性。发展到后期各学科之间的理论仍然可以相互解释，统一性大于差异性。</p>
-<p>总结</p>
-<ul>
-<li>具身学派听起来还挺恐怖的，强烈的宿命感。</li>
-<li>做最优解，让自己处在最优的环境。是一种好的策略</li>
-<li>根据经典学派，规则和解释 ： 要去学习理论知识和框架。</li>
-<li>根据连接学派，认知不是线性的 ： 需要充分的练习和正向反馈。</li>
-<li>根据具身学派，感知很重要： 改造身边的环境。</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
-    <title>[reading] Mastering Python High Performance</title>
-    <url>/2021/05/18/notes-Mastering-Python-High-Performance/</url>
-    <content><![CDATA[<p>Methodology</p>
-<ul>
-<li>event-based profiling  <ul>
-<li>language<ul>
-<li>python<ul>
-<li>sys.setprofile <code>python_[call|return|exception]</code> <code>c_[call|return|exception]</code></li>
-</ul>
-</li>
-</ul>
-</li>
-<li>event-based profiler | tracing profiler</li>
-</ul>
-</li>
-<li>statistical profiling<ul>
-<li>less data</li>
-<li>less effect performance (profiler will have a negative effect)</li>
-<li>Oprofile</li>
-<li>statprof</li>
-</ul>
-</li>
-<li>vector<ul>
-<li>operation time</li>
-</ul>
-</li>
-<li>bottleneck<ul>
-<li>I/O<ul>
-<li>disk</li>
-<li>network</li>
-<li>sql</li>
-</ul>
-</li>
-<li>memory<ul>
-<li>no enough memory</li>
-<li>loading data, but not release</li>
-<li>avg | max |min</li>
-</ul>
-</li>
-<li>slow*times</li>
-<li>noCache*times</li>
-</ul>
-</li>
-<li>Running Time Complexity, RTC, big O notation</li>
-<li>practice<ul>
-<li>Regression Testing () </li>
-</ul>
-</li>
-<li>profiling before optimization</li>
-<li>coverage</li>
-<li>unitest<ul>
-<li>Don’t let the modification destroy the normal operation of the program.</li>
-</ul>
-</li>
-<li>framework<ul>
-<li>repeat manual work.</li>
-<li>multi Progress.</li>
-</ul>
-</li>
-<li>be patient.</li>
-<li>collect everthing<ul>
-<li>system log</li>
-<li>user defined log</li>
-<li>system Snapshot</li>
-</ul>
-</li>
-<li>Pretreatment<ul>
-<li>ETL</li>
-</ul>
-</li>
-<li>profier<ul>
-<li>cProfile<ul>
-<li>info<ul>
-<li>ncalls</li>
-<li>tottime: find bad loop</li>
-<li>percall<ul>
-<li>n: call times</li>
-<li>n/m: total-times/recursion-times</li>
-</ul>
-</li>
-<li>cumtime: function+=sub-function-call…</li>
-<li>percall: tottime/ncalls</li>
-<li>filename:lineno(function): location</li>
-</ul>
-</li>
-<li>api<ul>
-<li>run: </li>
-<li>runctx: save result into file</li>
-<li>Profile</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>pstats<ul>
-<li>prof:=cProfile</li>
-<li>pstats(prof)</li>
-<li>profile.Stats+cProfile.Profile</li>
-</ul>
-</li>
-<li>line_profiler<ul>
-<li><code>kernprof -l file.py</code> -&gt; file.py.lprof</li>
-<li>Line</li>
-<li>Hints</li>
-<li>Time</li>
-<li>Per hit</li>
-<li>% time</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>Visualization<ul>
-<li>KCacheGrind/pyprof2calltree: cProfile-&gt;KCacheGrind</li>
-<li>RunSnakeRUn: cProfile onlypyhon2 </li>
-</ul>
-</li>
-<li>method<ul>
-<li>memoization<ul>
-<li>default agrument + static argument + cache: fastest</li>
-</ul>
-</li>
-<li>lookup table</li>
-<li>dis + complie <ul>
-<li><code>dis.disassemble(compile(text,&#39;&lt;string&gt;&#39;,&#39;exec&#39;))</code></li>
-<li>compare Instruction Set</li>
-</ul>
-</li>
-<li>generator expression</li>
-<li>ctypes<ul>
-<li>cdll</li>
-</ul>
-</li>
-<li>stirng<ul>
-<li><code>join</code> &amp;&amp; <code>+=</code></li>
-</ul>
-</li>
-<li>collection.deque</li>
-<li><code>while 1</code> better than <code>while True</code></li>
-<li>namedtuple better than class instance</li>
-<li>nultiple assignments is slow.</li>
-</ul>
-</li>
-<li>multithreading vs. multiprocessing<ul>
-<li>concurrency<ul>
-<li>time slicing </li>
-</ul>
-</li>
-<li>parallelism<ul>
-<li>CUDA</li>
-<li>OpenCL</li>
-</ul>
-</li>
-<li>multithreading<ul>
-<li>package<ul>
-<li>thread<ul>
-<li>allocate_lock<ul>
-<li>acquire</li>
-<li>release</li>
-<li>locked</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>threading<ul>
-<li>join: pending on thrading task </li>
-<li>conmmunation<ul>
-<li>event<ul>
-<li>is_set</li>
-<li>set</li>
-<li>clear</li>
-<li>wait</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>pros <ul>
-<li>continued response</li>
-<li>faster (use multi core)</li>
-<li>less memory</li>
-<li>simple state share</li>
-<li>simple thread communication</li>
-</ul>
-</li>
-<li>cons<ul>
-<li>race condition</li>
-<li>A crash in a thread takes down the whole process.</li>
-<li>deadlock</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>multiprocessing<ul>
-<li>package<ul>
-<li>multipricessing<ul>
-<li><code>multiprocessing.Process(target=foo,args(&quot;bar&quot;))</code></li>
-<li><code>p.terminate()</code></li>
-<li><code>p.start()</code></li>
-<li><code>p.join()</code></li>
-<li><code>p.exitcode</code></li>
-<li>Pool<ul>
-<li>apply</li>
-<li>apply_async<ul>
-<li>ApplyResult<ul>
-<li>get()</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>communation<ul>
-<li>Queue</li>
-<li>Pipe</li>
-<li>Event</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>prod<ul>
-<li>multi core</li>
-<li>independent memory space</li>
-<li>killable</li>
-<li>GIL</li>
-</ul>
-</li>
-<li>cons<ul>
-<li>more memory </li>
-<li>IPC complex than multithreading</li>
-<li>share data complex</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>common<ul>
-<li>PyPy<ul>
-<li>speed JIT</li>
-<li>memory less</li>
-<li>sandboxing</li>
-<li>stackless</li>
-</ul>
-</li>
-<li>cStringIO</li>
-<li>Cython</li>
-</ul>
-</li>
-<li>number crunching<ul>
-<li>Numba: numba jit, numpy</li>
-<li>Parakeet</li>
-<li>pandas</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <tags>
-        <tag>python</tag>
-        <tag>profiling</tag>
-        <tag>optimization</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Writeup HackTheBox ScriptKiddle</title>
-    <url>/2021/04/27/Writeup-HackTheBox-ScriptKiddle/</url>
-    <content><![CDATA[<h1 id="Writeup-HackTheBox-ScriptKiddle"><a href="#Writeup-HackTheBox-ScriptKiddle" class="headerlink" title="Writeup HackTheBox ScriptKiddle"></a>Writeup HackTheBox ScriptKiddle</h1><p>under construction</p>
-<h2 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h2><h3 id="if-you-cant-find-exploit"><a href="#if-you-cant-find-exploit" class="headerlink" title="if you cant find exploit"></a>if you cant find exploit</h3><p>if command, search result nothing.<br><figure class="highlight actionscript"><table><tr><td class="code"><pre><span class="line"><span class="keyword">use</span> exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection</span><br></pre></td></tr></table></figure></p>
-<p>download file into<br><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line"><span class="regexp">/usr/</span>share<span class="regexp">/metasploit-framework/m</span>odules<span class="regexp">/exploits/u</span>nix<span class="regexp">/fileformat/m</span>etasploit_msfvenom_apk_template_cmd_injection.rb</span><br></pre></td></tr></table></figure></p>
-<p><a href="https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb" target="_blank" rel="noopener">github rapid7 metasploit_msfvenom_api_template_cmd_injection.rb</a></p>
-<p>and run command in msf<br><figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line"><span class="keyword">reload</span>_all</span><br></pre></td></tr></table></figure></p>
-<h3 id="echo-redirect-into-file-with-permission-but-nothing-write-in-it"><a href="#echo-redirect-into-file-with-permission-but-nothing-write-in-it" class="headerlink" title="echo redirect into file with permission but nothing write in it."></a>echo redirect into file with permission but nothing write in it.</h3><p>search about <code>incorn</code></p>
-<h3 id="shell-not-work"><a href="#shell-not-work" class="headerlink" title="shell not work"></a>shell not work</h3><p>Errors may occur at the same time, break down the steps, and verify one by one. You need to have an expectation before each step is executed, and observe side effects such as output. Try to run locally to find different places.</p>
-<h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p>exploit-file<br><a href="https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb" target="_blank" rel="noopener">https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb</a><br>rapid7<br><a href="https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/" target="_blank" rel="noopener">https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/</a><br>exploit-db<br><a href="https://www.exploit-db.com/exploits/49491" target="_blank" rel="noopener">https://www.exploit-db.com/exploits/49491</a><br>incorn<br><a href="https://www.geeksforgeeks.org/incron-command-in-linux-with-examples/" target="_blank" rel="noopener">https://www.geeksforgeeks.org/incron-command-in-linux-with-examples/</a>    </p>
-]]></content>
-      <tags>
-        <tag>Writeup</tag>
-        <tag>HackTheBox</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>how-to-blog</title>
-    <url>/2020/04/06/how-to-blog/</url>
-    <content><![CDATA[<p>blog只要有一段时间没有更新就忘记整个流程。<br>blog在公网发布是需要接触github page的。而生成可发布的文件需要hexo这个工具。<br>所以我开了两个项目一个public项目[2]用于展示blog，一个private项目[1]用于保存hexo文件。<br>当想不起来如何使用hexo的时候就去官网看下文档关于写作和发布的部分。[3]</p>
-<p>reference<br>[1] github hexo <a href="https://github.com/SailerNote/hexo_blog" target="_blank" rel="noopener">https://github.com/SailerNote/hexo_blog</a><br>[2] github page <a href="https://github.com/SailerNote/sailernote.github.io" target="_blank" rel="noopener">https://github.com/SailerNote/sailernote.github.io</a><br>[3] hexo docs   <a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/writing</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>crontab_tool</title>
-    <url>/2019/08/02/crontab-tool/</url>
-    <content><![CDATA[<p>crontab 计时任务语法工具<br>summary: 会根据填写的命令，给出语意化的说明和下次触发的标准时间。<br>link: <a href="https://crontab.guru/#52_0-23_*_*_" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_</a>*</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>通过 storm ssh 连接 vps</title>
-    <url>/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/</url>
-    <content><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p>
-<p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p>
-<p>install storms<br><code>[sudo] pip install stromssh</code></p>
-<p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight subunit"><table><tr><td class="code"><pre><span class="line"><span class="keyword">success  </span>vps added to your ssh config. you can connect it by typing "ssh vps".</span><br></pre></td></tr></table></figure></p>
-<p>list vps<br><code>storm list</code><br><figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">SailerNote<span class="meta">@computer</span>  ~/.ssh  storm list </span><br><span class="line">Listing <span class="string">entries:</span></span><br><span class="line">vpsname -&gt; username<span class="meta">@ip</span><span class="string">_address:</span>port</span><br></pre></td></tr></table></figure></p>
-<p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p>
-<p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p>
-<p>ssh config<br>before<br><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">   <span class="built_in"> user </span>username</span><br><span class="line">   <span class="built_in"> port </span>22</span><br></pre></td></tr></table></figure></p>
-<p>after<br><figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">   <span class="built_in"> user </span>root</span><br><span class="line">    usekeychain <span class="literal">yes</span></span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">   <span class="built_in"> port </span>22</span><br><span class="line">    addkeystoagent <span class="literal">yes</span></span><br></pre></td></tr></table></figure></p>
-<p>connect vps<br><code>ssh vpsname</code></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2019/03/15/hello-world/</url>
-    <content><![CDATA[<p>This is My Blog, Welcome.</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Mongo数据备份</title>
-    <url>/2019/03/15/Mongo%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/</url>
-    <content><![CDATA[<h1 id="Mongo数据备份"><a href="#Mongo数据备份" class="headerlink" title="Mongo数据备份"></a>Mongo数据备份</h1><p>mongodb+rsync+crontab</p>
-<h2 id="获取需要备份文件-mongodb"><a href="#获取需要备份文件-mongodb" class="headerlink" title="获取需要备份文件 mongodb"></a>获取需要备份文件 mongodb</h2><p>项目中需要备份的文件有两种，</p>
-<ol>
-<li>mongo的数据</li>
-<li>docs下的excel和word文件</li>
-</ol>
-<p>mongo原生的三个命令可以从数据库中导出数据文件，导入数据文件，以及通过文件对数据库进行表级字段级操作。</p>
-<p>（以下只涉及到备份预案）</p>
-<p>常用的mongo数据库导出<br><code>mongodump -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 -o 文件存在路径</code></p>
-<p>不需要展开的文件目录，mongo提供了导出压缩文件的命令，每天备份一次，文件名使用日期-时间戳-数据库.archive的形式，–archive和-o不兼容，只能同时使用一个命令。<br>获取时间戳<br><code>HOD=$(date +%s)</code><br>获取yyyyMMdd格式日期<br><code>TODAY=$(date +%Y%m%d)</code><br>导出存档文件<br><code>mongodump -h &quot;$DB_HOST&quot;  --port &quot;$DB_PORT&quot; -d &quot;$DB_NAME&quot; --gzip  --archive=&quot;$ARCHIVE&quot;</code></p>
-<h2 id="推送到备份服务器-rsync"><a href="#推送到备份服务器-rsync" class="headerlink" title="推送到备份服务器 rsync"></a>推送到备份服务器 rsync</h2><p>rsync具有ssh和daemon两种服务模式，两种又可以进行推||拉两种同步方式。（我个人直觉上比较喜欢资源服务器搭建好后，自由拉取。或者由一个中心服务器控制文件流动的，而不是资源服务器自动推。所以使用了daemon和pull的模式，因为拉取在备份服务器上运行脚本，是否成功获取也很容易通过一些脚本处理。）<br>daemon的主要配置在rsyncd.conf文件中<br><figure class="highlight makefile"><table><tr><td class="code"><pre><span class="line">pid file = /var/run/rsyncd.pid <span class="comment"># The process id file the daemon uses.</span></span><br><span class="line">lock file = /var/run/rsync.lock <span class="comment"># The daemon lock file.</span></span><br><span class="line">log file = /var/log/rsync.log <span class="comment"># The location of the log file.</span></span><br><span class="line">port = 12000</span><br><span class="line"></span><br><span class="line"><span class="comment"># [files] This is the module name. </span></span><br><span class="line"><span class="comment"># The name used here is what you’ll be putting in the rsync pull command as the first part of the source (/files/../..). </span></span><br><span class="line"><span class="comment"># You can name it what you’d like and can have as many as you’d like.</span></span><br><span class="line">[files] </span><br><span class="line">path = /home/data/files <span class="comment"># The file path for files associated with this module.</span></span><br><span class="line">comment = RSYNC FILES <span class="comment"># Descriptive comment for this module.</span></span><br><span class="line">read only = no <span class="comment"># This tells the daemon the directory for this module is read-only. You cannot upload to it. For upload only, use upload only = true.</span></span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line"><span class="comment"># 24标志c类网段</span></span><br><span class="line">hosts allow = ipaddr/24</span><br><span class="line">timeout = 300 <span class="comment"># Time, in seconds, the rsync daemon will wait before terminating a dead conenction.</span></span><br><span class="line"></span><br><span class="line">[mongo]</span><br><span class="line">path = /home/data/mongo</span><br><span class="line">comment = MONGODB BACKUP</span><br><span class="line">read only = no</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line"><span class="comment"># ipaddr like 127.0.0.1</span></span><br><span class="line">hosts allow = ipaddr/24 ipaddr/24</span><br><span class="line">timeout = 300</span><br><span class="line"></span><br><span class="line">[docs]</span><br><span class="line">path = /home/static/docs</span><br><span class="line">comment = DOCS BACKUP</span><br><span class="line">read only = no</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line">hosts allow = ipaddr/24 ipaddr/24</span><br><span class="line">timeout = 300</span><br></pre></td></tr></table></figure></p>
-<p>启动<br><figure class="highlight ada"><table><tr><td class="code"><pre><span class="line">rsync <span class="comment">--daemon</span></span><br></pre></td></tr></table></figure></p>
-<p>检查启动情况<br><figure class="highlight vim"><table><tr><td class="code"><pre><span class="line"><span class="keyword">ps</span> <span class="keyword">x</span> | <span class="keyword">grep</span> rsync</span><br></pre></td></tr></table></figure></p>
-<p>停止daemon<br><figure class="highlight stata"><table><tr><td class="code"><pre><span class="line">kill `<span class="keyword">cat</span> /<span class="keyword">var</span>/<span class="keyword">run</span>/rsyncd.pid`</span><br></pre></td></tr></table></figure></p>
-<p>通过xinetd守护进程</p>
-<p>备份服务器拉取数据<br>查看rsync服务器中可以同步的目录列表<br><figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">rsync -rdt <span class="string">rsync:</span><span class="comment">//IPADDR:RsyncPort/</span></span><br></pre></td></tr></table></figure></p>
-<p>可以反复执行拿到下级目录<br><figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">rsync -rdt <span class="string">rsync:</span><span class="comment">//IPADDR:RsyncPort/DirectoryName</span></span><br></pre></td></tr></table></figure></p>
-<p>找到资源后 同步到目标路径<br><figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">rsync -rdt rsync:<span class="regexp">//</span>IPADDR:RsyncPort<span class="regexp">/DirectoryName/</span>File <span class="regexp">/DestinationDirectory/</span></span><br></pre></td></tr></table></figure></p>
-<p>MacOS因为是NFS的数据格式，同步的时候需要使用 -O参数，SRC为资源路径 DEST为目标路径，-avu， -rdt同步中的细节调整，详看文档<br><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env bash</span></span><br><span class="line">RSYNC_SERVER=rsync://127.0.0.1:12000</span><br><span class="line">RSYNC_DIR=files</span><br><span class="line">RSYNC_SRC=<span class="string">"<span class="variable">$RSYNC_SERVER</span>"</span>/<span class="string">"<span class="variable">$RSYNC_DIR</span>"</span></span><br><span class="line">RSYNC_DEST=<span class="string">"/data/server_back"</span></span><br><span class="line">sudo rsync -avu -O --progress <span class="string">"<span class="variable">$RSYNC_SRC</span>"</span> <span class="string">"<span class="variable">$RSYNC_DEST</span>"</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="定时执行获取-amp-amp-推送操作-crontab"><a href="#定时执行获取-amp-amp-推送操作-crontab" class="headerlink" title="定时执行获取&amp;&amp;推送操作 crontab"></a>定时执行获取&amp;&amp;推送操作 crontab</h2><p>crontab是系统级的定时任务<br><code>crontab -e</code> 编辑定时任务<br><code>crontab -l</code> 查看定时任务列表<br>保存后系统就会按照crontab执行计划任务<br>crontab 除了执行shell外还行执行其他脚本<br><code>*/1 * * * * /usr/bin/python /root/images/color.py</code> 如可以执行python解释器来执行python脚本，改脚本为执行color.py/1 minute</p>
-<h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>Destination host unreachable <a href="https://blog.csdn.net/yzit0905/article/details/52748122" target="_blank" rel="noopener">https://blog.csdn.net/yzit0905/article/details/52748122</a></p>
-<h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p>知乎上关于mongodb backup的文章<br><a href="https://zhuanlan.zhihu.com/p/29809036" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/29809036</a></p>
-<p>github上自动备份mongo的脚本<br><a href="https://github.com/micahwedemeyer/automongobackup/blob/master/src/automongobackup.sh" target="_blank" rel="noopener">https://github.com/micahwedemeyer/automongobackup/blob/master/src/automongobackup.sh</a></p>
-<p>mongodb压缩，过去需要额外执行压缩命令，3.2引入了–gzip<br><a href="https://www.cnblogs.com/xuliuzai/p/9594138.html" target="_blank" rel="noopener">https://www.cnblogs.com/xuliuzai/p/9594138.html</a></p>
-<p>mongo官方文章，存档与压缩<br><a href="https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools" target="_blank" rel="noopener">https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools</a></p>
-<p>来自linux公社，rsync实现文件同步配置与使用<br><a href="https://www.linuxidc.com/Linux/2012-10/71704.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2012-10/71704.htm</a></p>
-<p>来自linux公社，rsync实现文件同步配置排除故障<br><a href="https://www.linuxidc.com/Linux/2012-10/71705.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2012-10/71705.htm</a></p>
-<p>! rsync 使用详解<br><a href="https://www.atlantic.net/hipaa-compliant-cloud-storage/how-to-setup-rsync-daemon-linux-server/" target="_blank" rel="noopener">https://www.atlantic.net/hipaa-compliant-cloud-storage/how-to-setup-rsync-daemon-linux-server/</a></p>
-<p>rsync 使用详解 相当于上一片的中文版<br><a href="https://segmentfault.com/a/1190000000444614" target="_blank" rel="noopener">https://segmentfault.com/a/1190000000444614</a><br>wiki关于xinted文章<br><a href="https://en.wikipedia.org/wiki/Xinetd" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Xinetd</a></p>
-<p>20个crontab的用例,常见写法与基本命令<br><a href="https://www.jianshu.com/p/d93e2b177814" target="_blank" rel="noopener">https://www.jianshu.com/p/d93e2b177814</a></p>
-<p>crontab语法辅助工具<br><a href="https://crontab.guru/#52_0-23_*_*_*" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_*</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>代码动态演示工具</title>
-    <url>/2018/11/08/%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%80%81%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/</url>
-    <content><![CDATA[<p>代码动态演示工具，对命令行逐行表现力很好。<br><a href="https://glorious.codes/demo" target="_blank" rel="noopener">https://glorious.codes/demo</a></p>
-<p>早一年我还很倾向使用样式结构简单的系统，因为可以照顾到性能低的设备和一些兼容性不好的浏览器。<br>但是后来看到华盛顿邮报等网站的图表后，开始反思，图表动画的信息量更大，具有文字不具有的表现力。</p>
-]]></content>
-  </entry>
+<search> 
+  
+  
+    
+    <entry>
+      <title>[reading] Mind Body World &amp; C1</title>
+      <link href="/2021/06/24/reading-Mind-Body-World/"/>
+      <url>/2021/06/24/reading-Mind-Body-World/</url>
+      
+        <content type="html"><![CDATA[<p>1.0 Chapter Overview<br>实验心理学学科内部的分裂，认知过程视为一种信息处理，使得认知科学成为高度统一的学科。</p><ul><li>古典认知科学</li><li>联结主义认知科学</li><li>体现认知科学</li></ul><p>问题</p><ul><li>共同的核心假设是什么？</li><li>只有一种认知科学还是很多种认知科学？</li></ul><p>为了统一认知论，提出了一个核心的假设</p><blockquote><p>认知是信息的处理。认知科学通过调用信息处理解释来解释人类的认知。然而，信息处理者本身需要在非常不同的分析水平上构建解释性说明</p></blockquote><p>比如3岁的幼仔和14岁的成年个体在认知水平上不一致。</p><p>方法</p><blockquote><p>Marr（1982）提出信息处理器需要在计算、算法和实现层面上进行解释。在计算层面，正式的证明被用来确定什么信息处理问题正在被解决。在算法层面，实验观察和计算机模拟被用来确定用于解决信息处理问题的特定信息处理步骤。在实现层面，生物或物理方法用于确定实际实例化信息处理步骤的机械原理。此外，对信息处理器的完整解释需要在这些不同层次的分析之间建立联系。</p></blockquote><p>计算： 参数输入和结果输出<br>算法： 对参数的处理步骤<br>实现： 对认知的影响需要从生物学和物理学的方法对信息处理个体进行干预。</p><p>认知是信息处理的这种假设可以将各个学科统一起来，用自己学科的用语言解释但是统一到一个分析框架上来。</p><blockquote><p>认知科学是多门学科交汇的地方，但还不是一门独立的学科。</p></blockquote><p>但不同学科的不同解释，给人以学科不相溶的感觉。</p><p>（我不太理解文中<strong>连贯性</strong>的意思）</p><blockquote><p>尽管一些研究者已经注意到大脑可能不像计算机那样工作，但大脑仍然被认为是数字化的，因为动作电位的全或无生成被解释为等同于在布尔逻辑中分配真值</p></blockquote><ul><li>古典认知学科<ul><li>规则控制的符号操作<ul><li>思维工件扩散</li><li>专家系统<blockquote><p>经典方法的成功是在适定问题领域，这类问题具有明确定义的知识状态和目标状态，更不用说将一种知识状态转换为另一种知识状态的明确定义操作。如果一个问题是适定的，那么它的解决方案可以描述为通过问题空间的搜索，并且计算机可以被编程来执行这个搜索（Newell&amp;Simon，1972）。然而，这种强调导致了对经典方法越来越多的批评。一个普遍的问题是，人类的认知是否远远超出了仅仅在解决适定问题时所能捕捉到的范围（Dreyfus，1992；塞尔，1980年；魏森鲍姆，1976）。事实上，经典方法擅长于制作游戏和解决问题的计算机模拟，但在语音识别、语言翻译或计算机视觉等领域没有取得巨大成功。”总体格局已初具规模。基于简单任务的轻松完成或复杂任务的低质量工作而取得的早期的巨大成功,然后是收益递减、幻灭，在某些情况下还有悲观主义</p></blockquote></li></ul></li></ul></li></ul><blockquote><p>人类在没有训练的情况下擅长的许多能力，比如说、看和走路，似乎超出了经典认知科学的掌握范围。这些能力包括处理不适定问题。不适定问题是一个非常模糊的问题，它的知识状态和目标状态定义不清，并且涉及到操作知识的定义不清的操作。因此，它不太适合于经典分析，因为不能为不适定问题定义问题空间。这表明数字计算机对人类进行的信息处理的定义很差。”在我们看来，人们比今天的计算机更聪明，因为大脑采用了一种基本的计算架构，这种架构更适合处理人们非常擅长的自然信息处理任务的中心方面”（Rumelhart&amp;McClelland，1986 c，p。三</p></blockquote><blockquote><p>连接主义认知科学反对古典认知科学，提出了一种与数字计算机隐喻所启发的认知结构有质的不同（Bechtel&amp;Abrahamsen，2002；丘奇兰、科赫和塞伊诺夫斯基，1990年；丘奇兰和塞伊诺夫斯基，1992年；克拉克，1989年，1993年；Horgan&amp;Tienson，1996年；昆兰，1991年）。连接论者认为，信息处理的经典概念的问题在于它忽视了大脑的基本属性。连接主义把自己塑造成一个受神经元启发，在生物学上看似合理的经典认知科学的替代品（Bechtel&amp;Abrahamsen，2002；麦克莱兰和鲁梅尔哈特，1986年；Rumelhart&amp;McClelland，1986年c）。”我相信，没有一项关于心灵的严肃研究（包括哲学研究）能够在[经典]认知科学家已经习惯的那种生物真空中进行”</p></blockquote><blockquote><p>连接主义提出的体系结构是人工神经网络（Caudill&amp;Butler，1992a，1992b；道森，2004、2005；王尔德，1997年；Muller&amp;Reinhardt，1990年；罗哈斯，1996年）。人工神经网络是一个简单的处理器系统，类似于神经元，它们并行工作，通过类似于突触的加权连接互相发送信号。由输入处理器检测到的信号被转换成响应，该响应在一组输出处理器中表示为活动。连接权值决定了网络中的输入输出关系，但它们不是程序化的。相反，使用学习规则来修改权重。人工神经网络以身作则。</p></blockquote><blockquote><p>人工神经网络否定了数字计算机的许多基本特性（冯诺依曼，1958）。大脑是一个由串行中央控制器控制的数字符号操纵器的想法已经不复存在了。取而代之的是，大脑的过程被描述为亚符号的和平行的（Smolensky，1988）；这些过程的控制是分散的。结构和过程之间的经典区别已经消失了，在这种区别中，一组明确的规则操纵着认知科学：一个还是多个？9个离散符号存储在单独的存储器中。取而代之的是，大脑被视为一个分布式系统，在这个系统中，问题的解决方案来自于大量简单处理器的并行活动：网络既是结构又是过程，网络同时存储和修改信息（Hillis，1985）。信息处理类似于逻辑的假设已经不复存在了（Oaksford&amp;Chater，1991）。取而代之的是，连接论者将大脑视为一个动态的统计模式识别器。</p></blockquote><blockquote><p>尽管有了这些变化，连接主义仍然把自己的认知看作是一种不同的信息处理：“这些不同并不意味着大脑不是计算机，而仅仅意味着大脑不是串行数字计算机”（Churchland，Koch，&amp;Sejnowski，1990，p。48，斜体原件）。认知的联结主义模型和经典模拟有着同样悠久的历史（道森，2004；梅德勒，1998年）。McCulloch和Pitts在20世纪40年代描述了Powerful神经网络模型（McCulloch，1988a），Rosenblatt（19581962）的感知器是简单的人工神经网络，它们不是程序化的，而是从示例中学习的。由于证明了简单人工神经网络的局限性，这种研究在20世纪60年代末逐渐衰落</p></blockquote><blockquote><p>然而，早在1980年代中期，早期网络的局限性得到克服，那时发现新技术允许更多的电力网络从示例中学习（Ackley、Hinton和Sejnowski，1985年）；伦德哈特，辛顿和威廉姆斯，1986b）。由于这些新技术，现代康涅狄格主义已经取得了与古典认知科学几乎同等的地位。人工神经网络已经被用于建模一系列不适定问题，产生了许多专家系统，并成功地模拟了曾经被认为是经典方法所独有的领域</p></blockquote><blockquote><p>一方面，古典认知科学家认为连接主义的兴起是认知主义成功取代的联想主义和行为主义心理学的重生.因为连接主义避开了规则和符号，古典主义者认为它不足以解释思想和语言的规则性</p></blockquote><blockquote><p>连接主义模型的问题是，所有认为它们可能是真的理由都是认为它们不可能是心理学的理由”（Fodor&amp;Pylyshyn，1988，p。66). 美国一则关于连接主义专家系统的科学新闻报道，包括Pylyshyn将连接主义与巫毒的比较：“人们对通过巫毒获得神秘的弗兰肯斯坦式的智慧的前景着迷！很少有人能像神经网络那样成功地做到这一点”（Stix，1994，p。44). 解释联结主义网络内部结构的困难被用来反驳他们为认知科学提供模型、理论甚至示范的能力（McCloskey，1991）<br>(神经网络无法解释规则性，也无法解释其内部结构)</p></blockquote><blockquote><p>另一方面，毫不奇怪的是，连接主义研究者们也做出了同样的回答。其中一些回应是关于古典建筑固有问题的争论（例如，缓慢、脆弱的模型），结合连接主义建筑为这些问题提供解决方案的主张（Feldman&amp;Ballard，1982；Rumelhart和McClelland，1986年c）。其他人则认为，经典模型未能充分说明人类认知的实验研究（Oaksford、Chater和Stenning，1990）。连接主义的实践者甚至声称他们为认知科学提供了一种范式转换</p></blockquote><p>古典和连接学派的模型是 感知-思维-行动，具体行为学派则是，感知-行动。认为前两个学派具有唯我性，但大脑并不具备思考能力，只是控制器。</p><blockquote><p>具身认知科学认为大脑是一个控制器，而不是一个计划者。”人们认识到，最近提到的所谓的中央情报系统或核心人工智能可能是一种不必要的幻觉，所有情报的力量都来自感知和驱动系统的耦合”</p></blockquote><blockquote><p>通过提出扩展心智假说，体现认知科学也与经典认知科学和联结主义认知科学保持了距离（克拉克，1997，1999，2003，2008；威尔逊，2004年和2005年）。根据扩展心智假说，心智并不是通过头骨与世界分离的。相反，心灵和世界之间的界限是模糊的，或者已经消失了。扩展思维的一个结果是认知支架，通过外部世界作为支持，增强了“经典”认知的能力。一个简单的例子是通过使用外部辅助工具（如记事本）来扩展内存。然而，如果使用适当的工件，则可以将完整的信息处理放到世界中。Hutchins（1995）提供了许多将计算具体化的导航工具的例子似乎大部分的计算都是由认知科学完成的：一个还是多个？13工具，或由其设计者。因为工具做得更多，人们可以通过做得更少而获得成功</p></blockquote><blockquote><p>在具身认知阵营中发现了进一步的分裂（Robbins&amp;Aydede，2009；夏皮罗，2011）。具体化认知科学家之间对于他们的每一个激进观点被接受的程度有着强烈的分歧。例如，Clark（1997）认为在具身认知科学中存在表征的空间，而Chemero（2009）则没有</p></blockquote><p>具身认知</p><ul><li>存在表征空间</li><li>不存在表征空间</li></ul><p>认知心理学中「表征」的概念是什么？<br><a href="https://www.zhihu.com/question/21000475" target="_blank" rel="noopener">https://www.zhihu.com/question/21000475</a><br>认知心理学中「表征」的概念是什么？ - Koten的回答 - 知乎<br><a href="https://www.zhihu.com/question/21000475/answer/218984656" target="_blank" rel="noopener">https://www.zhihu.com/question/21000475/answer/218984656</a></p><p>认知心理学中「表征」的概念是什么？ - 「已注销」的回答 - 知乎<br><a href="https://www.zhihu.com/question/21000475/answer/260874482" target="_blank" rel="noopener">https://www.zhihu.com/question/21000475/answer/260874482</a></p><blockquote><p>但毕竟心灵是看不见摸不到的，最多只能通过内省和行为反应来间接推测。</p></blockquote><p>1.4认知科学：前范式</p><blockquote><p>在短篇小说《巴别塔图书馆》中，豪尔赫·路易斯·博尔赫斯（Jorge Luis Borges，1962）将宇宙想象成图书馆，一个由螺旋楼梯连接在一起的无限六边形房间。每个房间里的书数量完全相同，每本书有410页，全部以相同的格式印刷。图书馆员认为图书馆藏有所有可能的书，也就是说，一组有限的正字法符号的所有可能的排列。他们相信“图书馆是完整的，它的书架登记着。所有被给予表达的东西，用所有的语言”</p></blockquote><blockquote><p>博尔赫斯的图书馆员一生都在整理那些几乎无法理解的书籍，寻找那些解释“人类基本奥秘”的书籍（博尔赫斯，1962，p。55). 这种探索的核心是相信存在一种语言来表达这些答案。”同样的道理，这些严重的谜团可以用文字来解释：如果哲学家的语言还不够，多样化的图书馆将产生前所未有的语言，包括它的词汇和语法</p></blockquote><blockquote><p>在现代科学哲学中，一种不同类型的交流中断是一个共同的主题。有人认为，一些科学理论与其他理论是不可测量的（费耶拉本德，1975；库恩，1970）。不可通约科学理论是由于某些或所有理论术语之间没有逻辑或有意义的关系而无法比较的理论。库恩认为，如果在一门科学中，不同的研究人员在不同的范式下工作，就会出现这种情况。在新的范式中，旧的术语、概念和认知科学：实验彼此之间建立了新的关系。不可避免的结果是，我们必须称之为两个学派之间的误解，尽管这个术语并不完全正确”（库恩，1970，p。149). 库恩认为不同范式的持有者是不同语言社区的成员，即使他们用同一种白话文写作！范式的差异导致了交流的中断</p></blockquote><blockquote><p>前范式科学存在于一种混乱和支离破碎的状态中，因为数据是在缺乏统一信仰的情况下收集和解释的。”在任何科学发展的早期阶段，不同的人面对相同范围的现象，但通常不是所有相同的特定现象，用不同的方式来描述和解释它们”（库恩，1970，p。17). 我的怀疑是，认知科学已经就它认为应该解释的各种现象达成了一些普遍共识。然而，对于它认为有必要提供所需解释的技术细节的种类，它是预先范式。在之前的一本书中，我认为认知是信息处理的假设为认知科学的“语言”提供了一个框架，使跨学科对话成为可能（Dawson，1998）。我证明了当这个框架被应用时，古典认知科学和连接主义认知科学之间的相似性大于差异性。这些相似性的根源在于，古典认知科学和联结主义认知科学都采用了信息加工假说。因此，这两个学派的思想可以检查和比较使用马尔（1982年）不同层次的分析。可以证明，经典认知科学和连接主义认知科学在计算和算法分析层面上高度相关（Dawson，1998，2009）</p></blockquote><p>在发展成两个学派前的发展方式具有统一性。发展到后期各学科之间的理论仍然可以相互解释，统一性大于差异性。</p><p>总结</p><ul><li>具身学派听起来还挺恐怖的，强烈的宿命感。</li><li>做最优解，让自己处在最优的环境。是一种好的策略</li><li>根据经典学派，规则和解释 ： 要去学习理论知识和框架。</li><li>根据连接学派，认知不是线性的 ： 需要充分的练习和正向反馈。</li><li>根据具身学派，感知很重要： 改造身边的环境。</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>[reading] Mastering Python High Performance</title>
+      <link href="/2021/05/18/notes-Mastering-Python-High-Performance/"/>
+      <url>/2021/05/18/notes-Mastering-Python-High-Performance/</url>
+      
+        <content type="html"><![CDATA[<p>Methodology</p><ul><li>event-based profiling  <ul><li>language<ul><li>python<ul><li>sys.setprofile <code>python_[call|return|exception]</code> <code>c_[call|return|exception]</code></li></ul></li></ul></li><li>event-based profiler | tracing profiler</li></ul></li><li>statistical profiling<ul><li>less data</li><li>less effect performance (profiler will have a negative effect)</li><li>Oprofile</li><li>statprof</li></ul></li><li>vector<ul><li>operation time</li></ul></li><li>bottleneck<ul><li>I/O<ul><li>disk</li><li>network</li><li>sql</li></ul></li><li>memory<ul><li>no enough memory</li><li>loading data, but not release</li><li>avg | max |min</li></ul></li><li>slow*times</li><li>noCache*times</li></ul></li><li>Running Time Complexity, RTC, big O notation</li><li>practice<ul><li>Regression Testing () </li></ul></li><li>profiling before optimization</li><li>coverage</li><li>unitest<ul><li>Don’t let the modification destroy the normal operation of the program.</li></ul></li><li>framework<ul><li>repeat manual work.</li><li>multi Progress.</li></ul></li><li>be patient.</li><li>collect everthing<ul><li>system log</li><li>user defined log</li><li>system Snapshot</li></ul></li><li>Pretreatment<ul><li>ETL</li></ul></li><li>profier<ul><li>cProfile<ul><li>info<ul><li>ncalls</li><li>tottime: find bad loop</li><li>percall<ul><li>n: call times</li><li>n/m: total-times/recursion-times</li></ul></li><li>cumtime: function+=sub-function-call…</li><li>percall: tottime/ncalls</li><li>filename:lineno(function): location</li></ul></li><li>api<ul><li>run: </li><li>runctx: save result into file</li><li>Profile</li></ul></li></ul></li><li>pstats<ul><li>prof:=cProfile</li><li>pstats(prof)</li><li>profile.Stats+cProfile.Profile</li></ul></li><li>line_profiler<ul><li><code>kernprof -l file.py</code> -&gt; file.py.lprof</li><li>Line</li><li>Hints</li><li>Time</li><li>Per hit</li><li>% time</li></ul></li></ul></li><li>Visualization<ul><li>KCacheGrind/pyprof2calltree: cProfile-&gt;KCacheGrind</li><li>RunSnakeRUn: cProfile onlypyhon2 </li></ul></li><li>method<ul><li>memoization<ul><li>default agrument + static argument + cache: fastest</li></ul></li><li>lookup table</li><li>dis + complie <ul><li><code>dis.disassemble(compile(text,&#39;&lt;string&gt;&#39;,&#39;exec&#39;))</code></li><li>compare Instruction Set</li></ul></li><li>generator expression</li><li>ctypes<ul><li>cdll</li></ul></li><li>stirng<ul><li><code>join</code> &amp;&amp; <code>+=</code></li></ul></li><li>collection.deque</li><li><code>while 1</code> better than <code>while True</code></li><li>namedtuple better than class instance</li><li>nultiple assignments is slow.</li></ul></li><li>multithreading vs. multiprocessing<ul><li>concurrency<ul><li>time slicing </li></ul></li><li>parallelism<ul><li>CUDA</li><li>OpenCL</li></ul></li><li>multithreading<ul><li>package<ul><li>thread<ul><li>allocate_lock<ul><li>acquire</li><li>release</li><li>locked</li></ul></li></ul></li><li>threading<ul><li>join: pending on thrading task </li><li>conmmunation<ul><li>event<ul><li>is_set</li><li>set</li><li>clear</li><li>wait</li></ul></li></ul></li></ul></li></ul></li><li>pros <ul><li>continued response</li><li>faster (use multi core)</li><li>less memory</li><li>simple state share</li><li>simple thread communication</li></ul></li><li>cons<ul><li>race condition</li><li>A crash in a thread takes down the whole process.</li><li>deadlock</li></ul></li></ul></li><li>multiprocessing<ul><li>package<ul><li>multipricessing<ul><li><code>multiprocessing.Process(target=foo,args(&quot;bar&quot;))</code></li><li><code>p.terminate()</code></li><li><code>p.start()</code></li><li><code>p.join()</code></li><li><code>p.exitcode</code></li><li>Pool<ul><li>apply</li><li>apply_async<ul><li>ApplyResult<ul><li>get()</li></ul></li></ul></li></ul></li><li>communation<ul><li>Queue</li><li>Pipe</li><li>Event</li></ul></li></ul></li></ul></li><li>prod<ul><li>multi core</li><li>independent memory space</li><li>killable</li><li>GIL</li></ul></li><li>cons<ul><li>more memory </li><li>IPC complex than multithreading</li><li>share data complex</li></ul></li></ul></li></ul></li><li>common<ul><li>PyPy<ul><li>speed JIT</li><li>memory less</li><li>sandboxing</li><li>stackless</li></ul></li><li>cStringIO</li><li>Cython</li></ul></li><li>number crunching<ul><li>Numba: numba jit, numpy</li><li>Parakeet</li><li>pandas</li></ul></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> profiling </tag>
+            
+            <tag> optimization </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Writeup HackTheBox ScriptKiddle</title>
+      <link href="/2021/04/27/Writeup-HackTheBox-ScriptKiddle/"/>
+      <url>/2021/04/27/Writeup-HackTheBox-ScriptKiddle/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Writeup-HackTheBox-ScriptKiddle"><a href="#Writeup-HackTheBox-ScriptKiddle" class="headerlink" title="Writeup HackTheBox ScriptKiddle"></a>Writeup HackTheBox ScriptKiddle</h1><p>under construction</p><h2 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h2><h3 id="if-you-cant-find-exploit"><a href="#if-you-cant-find-exploit" class="headerlink" title="if you cant find exploit"></a>if you cant find exploit</h3><p>if command, search result nothing.<br><figure class="highlight actionscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">use</span> exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection</span><br></pre></td></tr></table></figure></p><p>download file into<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/usr/</span>share<span class="regexp">/metasploit-framework/m</span>odules<span class="regexp">/exploits/u</span>nix<span class="regexp">/fileformat/m</span>etasploit_msfvenom_apk_template_cmd_injection.rb</span><br></pre></td></tr></table></figure></p><p><a href="https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb" target="_blank" rel="noopener">github rapid7 metasploit_msfvenom_api_template_cmd_injection.rb</a></p><p>and run command in msf<br><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">reload</span>_all</span><br></pre></td></tr></table></figure></p><h3 id="echo-redirect-into-file-with-permission-but-nothing-write-in-it"><a href="#echo-redirect-into-file-with-permission-but-nothing-write-in-it" class="headerlink" title="echo redirect into file with permission but nothing write in it."></a>echo redirect into file with permission but nothing write in it.</h3><p>search about <code>incorn</code></p><h3 id="shell-not-work"><a href="#shell-not-work" class="headerlink" title="shell not work"></a>shell not work</h3><p>Errors may occur at the same time, break down the steps, and verify one by one. You need to have an expectation before each step is executed, and observe side effects such as output. Try to run locally to find different places.</p><h2 id="reference"><a href="#reference" class="headerlink" title="reference"></a>reference</h2><p>exploit-file<br><a href="https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb" target="_blank" rel="noopener">https://github.com/rapid7/metasploit-framework/blob/master/modules/exploits/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection.rb</a><br>rapid7<br><a href="https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/" target="_blank" rel="noopener">https://www.rapid7.com/db/modules/exploit/unix/fileformat/metasploit_msfvenom_apk_template_cmd_injection/</a><br>exploit-db<br><a href="https://www.exploit-db.com/exploits/49491" target="_blank" rel="noopener">https://www.exploit-db.com/exploits/49491</a><br>incorn<br><a href="https://www.geeksforgeeks.org/incron-command-in-linux-with-examples/" target="_blank" rel="noopener">https://www.geeksforgeeks.org/incron-command-in-linux-with-examples/</a>    </p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Writeup </tag>
+            
+            <tag> HackTheBox </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>how-to-blog</title>
+      <link href="/2020/04/06/how-to-blog/"/>
+      <url>/2020/04/06/how-to-blog/</url>
+      
+        <content type="html"><![CDATA[<p>blog只要有一段时间没有更新就忘记整个流程。<br>blog在公网发布是需要接触github page的。而生成可发布的文件需要hexo这个工具。<br>所以我开了两个项目一个public项目[2]用于展示blog，一个private项目[1]用于保存hexo文件。<br>当想不起来如何使用hexo的时候就去官网看下文档关于写作和发布的部分。[3]</p><p>reference<br>[1] github hexo <a href="https://github.com/SailerNote/hexo_blog" target="_blank" rel="noopener">https://github.com/SailerNote/hexo_blog</a><br>[2] github page <a href="https://github.com/SailerNote/sailernote.github.io" target="_blank" rel="noopener">https://github.com/SailerNote/sailernote.github.io</a><br>[3] hexo docs   <a href="https://hexo.io/zh-cn/docs/writing" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/writing</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>crontab_tool</title>
+      <link href="/2019/08/02/crontab-tool/"/>
+      <url>/2019/08/02/crontab-tool/</url>
+      
+        <content type="html"><![CDATA[<p>crontab 计时任务语法工具<br>summary: 会根据填写的命令，给出语意化的说明和下次触发的标准时间。<br>link: <a href="https://crontab.guru/#52_0-23_*_*_" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_</a>*</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>通过 storm ssh 连接 vps</title>
+      <link href="/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/"/>
+      <url>/2019/03/15/%E9%80%9A%E8%BF%87%20storm%20ssh%20%E8%BF%9E%E6%8E%A5%20vps/</url>
+      
+        <content type="html"><![CDATA[<h1 id="通过-storm-ssh-连接-vps"><a href="#通过-storm-ssh-连接-vps" class="headerlink" title="通过 storm ssh 连接 vps"></a>通过 storm ssh 连接 vps</h1><p>Vultr 创建一个 VPS 实例。在server管理页面获取刚新建的VPS username password ip_address。</p><p>stormssh 文档 <a href="https://stormssh.readthedocs.io/en/master/index.html" target="_blank" rel="noopener">https://stormssh.readthedocs.io/en/master/index.html</a></p><p>install storms<br><code>[sudo] pip install stromssh</code></p><p>create stormssh item<br><code>storm add vpsname username@ip_address:port</code><br><figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">success  </span>vps added to your ssh config. you can connect it by typing "ssh vps".</span><br></pre></td></tr></table></figure></p><p>list vps<br><code>storm list</code><br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">SailerNote<span class="meta">@computer</span>  ~/.ssh  storm list </span><br><span class="line">Listing <span class="string">entries:</span></span><br><span class="line">vpsname -&gt; username<span class="meta">@ip</span><span class="string">_address:</span>port</span><br></pre></td></tr></table></figure></p><p>create ssh public and private key<br>format<br><code>ssh-keygen -f path -t [rsa] -C string</code><br>example<br><code>ssh-keygen -f ~/.ssh/id_rsa.vpsname -t rsa -C &quot;test@email.com&quot;</code></p><p>copy public key to vps<br>format<br><code>ssh-copy-id [-i [identity_file]] [user@]machine</code><br>example<br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub username@ip_address</code><br><code>ssh-copy-id -i ~/.ssh/id_rsa.vpsname.pub vpsname</code><br>this step need password</p><p>ssh config<br>before<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">   <span class="built_in"> user </span>username</span><br><span class="line">   <span class="built_in"> port </span>22</span><br></pre></td></tr></table></figure></p><p>after<br><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Host vpsname</span><br><span class="line">    identityfile /Users/SailerNote/.ssh/id_rsa.vpsname</span><br><span class="line">   <span class="built_in"> user </span>root</span><br><span class="line">    usekeychain <span class="literal">yes</span></span><br><span class="line">    preferredauthentications publickey</span><br><span class="line">    hostname 1.1.1.1</span><br><span class="line">   <span class="built_in"> port </span>22</span><br><span class="line">    addkeystoagent <span class="literal">yes</span></span><br></pre></td></tr></table></figure></p><p>connect vps<br><code>ssh vpsname</code></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/03/15/hello-world/"/>
+      <url>/2019/03/15/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>This is My Blog, Welcome.</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mongo数据备份</title>
+      <link href="/2019/03/15/Mongo%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/"/>
+      <url>/2019/03/15/Mongo%E6%95%B0%E6%8D%AE%E5%A4%87%E4%BB%BD/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Mongo数据备份"><a href="#Mongo数据备份" class="headerlink" title="Mongo数据备份"></a>Mongo数据备份</h1><p>mongodb+rsync+crontab</p><h2 id="获取需要备份文件-mongodb"><a href="#获取需要备份文件-mongodb" class="headerlink" title="获取需要备份文件 mongodb"></a>获取需要备份文件 mongodb</h2><p>项目中需要备份的文件有两种，</p><ol><li>mongo的数据</li><li>docs下的excel和word文件</li></ol><p>mongo原生的三个命令可以从数据库中导出数据文件，导入数据文件，以及通过文件对数据库进行表级字段级操作。</p><p>（以下只涉及到备份预案）</p><p>常用的mongo数据库导出<br><code>mongodump -h IP --port 端口 -u 用户名 -p 密码 -d 数据库 -o 文件存在路径</code></p><p>不需要展开的文件目录，mongo提供了导出压缩文件的命令，每天备份一次，文件名使用日期-时间戳-数据库.archive的形式，–archive和-o不兼容，只能同时使用一个命令。<br>获取时间戳<br><code>HOD=$(date +%s)</code><br>获取yyyyMMdd格式日期<br><code>TODAY=$(date +%Y%m%d)</code><br>导出存档文件<br><code>mongodump -h &quot;$DB_HOST&quot;  --port &quot;$DB_PORT&quot; -d &quot;$DB_NAME&quot; --gzip  --archive=&quot;$ARCHIVE&quot;</code></p><h2 id="推送到备份服务器-rsync"><a href="#推送到备份服务器-rsync" class="headerlink" title="推送到备份服务器 rsync"></a>推送到备份服务器 rsync</h2><p>rsync具有ssh和daemon两种服务模式，两种又可以进行推||拉两种同步方式。（我个人直觉上比较喜欢资源服务器搭建好后，自由拉取。或者由一个中心服务器控制文件流动的，而不是资源服务器自动推。所以使用了daemon和pull的模式，因为拉取在备份服务器上运行脚本，是否成功获取也很容易通过一些脚本处理。）<br>daemon的主要配置在rsyncd.conf文件中<br><figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">pid file = /var/run/rsyncd.pid <span class="comment"># The process id file the daemon uses.</span></span><br><span class="line">lock file = /var/run/rsync.lock <span class="comment"># The daemon lock file.</span></span><br><span class="line">log file = /var/log/rsync.log <span class="comment"># The location of the log file.</span></span><br><span class="line">port = 12000</span><br><span class="line"></span><br><span class="line"><span class="comment"># [files] This is the module name. </span></span><br><span class="line"><span class="comment"># The name used here is what you’ll be putting in the rsync pull command as the first part of the source (/files/../..). </span></span><br><span class="line"><span class="comment"># You can name it what you’d like and can have as many as you’d like.</span></span><br><span class="line">[files] </span><br><span class="line">path = /home/data/files <span class="comment"># The file path for files associated with this module.</span></span><br><span class="line">comment = RSYNC FILES <span class="comment"># Descriptive comment for this module.</span></span><br><span class="line">read only = no <span class="comment"># This tells the daemon the directory for this module is read-only. You cannot upload to it. For upload only, use upload only = true.</span></span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line"><span class="comment"># 24标志c类网段</span></span><br><span class="line">hosts allow = ipaddr/24</span><br><span class="line">timeout = 300 <span class="comment"># Time, in seconds, the rsync daemon will wait before terminating a dead conenction.</span></span><br><span class="line"></span><br><span class="line">[mongo]</span><br><span class="line">path = /home/data/mongo</span><br><span class="line">comment = MONGODB BACKUP</span><br><span class="line">read only = no</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line"><span class="comment"># ipaddr like 127.0.0.1</span></span><br><span class="line">hosts allow = ipaddr/24 ipaddr/24</span><br><span class="line">timeout = 300</span><br><span class="line"></span><br><span class="line">[docs]</span><br><span class="line">path = /home/static/docs</span><br><span class="line">comment = DOCS BACKUP</span><br><span class="line">read only = no</span><br><span class="line">write only = no</span><br><span class="line">list = yes</span><br><span class="line">hosts allow = ipaddr/24 ipaddr/24</span><br><span class="line">timeout = 300</span><br></pre></td></tr></table></figure></p><p>启动<br><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync <span class="comment">--daemon</span></span><br></pre></td></tr></table></figure></p><p>检查启动情况<br><figure class="highlight vim"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">ps</span> <span class="keyword">x</span> | <span class="keyword">grep</span> rsync</span><br></pre></td></tr></table></figure></p><p>停止daemon<br><figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kill `<span class="keyword">cat</span> /<span class="keyword">var</span>/<span class="keyword">run</span>/rsyncd.pid`</span><br></pre></td></tr></table></figure></p><p>通过xinetd守护进程</p><p>备份服务器拉取数据<br>查看rsync服务器中可以同步的目录列表<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -rdt <span class="string">rsync:</span><span class="comment">//IPADDR:RsyncPort/</span></span><br></pre></td></tr></table></figure></p><p>可以反复执行拿到下级目录<br><figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -rdt <span class="string">rsync:</span><span class="comment">//IPADDR:RsyncPort/DirectoryName</span></span><br></pre></td></tr></table></figure></p><p>找到资源后 同步到目标路径<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rsync -rdt rsync:<span class="regexp">//</span>IPADDR:RsyncPort<span class="regexp">/DirectoryName/</span>File <span class="regexp">/DestinationDirectory/</span></span><br></pre></td></tr></table></figure></p><p>MacOS因为是NFS的数据格式，同步的时候需要使用 -O参数，SRC为资源路径 DEST为目标路径，-avu， -rdt同步中的细节调整，详看文档<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/usr/bin/env bash</span></span><br><span class="line">RSYNC_SERVER=rsync://127.0.0.1:12000</span><br><span class="line">RSYNC_DIR=files</span><br><span class="line">RSYNC_SRC=<span class="string">"<span class="variable">$RSYNC_SERVER</span>"</span>/<span class="string">"<span class="variable">$RSYNC_DIR</span>"</span></span><br><span class="line">RSYNC_DEST=<span class="string">"/data/server_back"</span></span><br><span class="line">sudo rsync -avu -O --progress <span class="string">"<span class="variable">$RSYNC_SRC</span>"</span> <span class="string">"<span class="variable">$RSYNC_DEST</span>"</span></span><br></pre></td></tr></table></figure></p><h2 id="定时执行获取-amp-amp-推送操作-crontab"><a href="#定时执行获取-amp-amp-推送操作-crontab" class="headerlink" title="定时执行获取&amp;&amp;推送操作 crontab"></a>定时执行获取&amp;&amp;推送操作 crontab</h2><p>crontab是系统级的定时任务<br><code>crontab -e</code> 编辑定时任务<br><code>crontab -l</code> 查看定时任务列表<br>保存后系统就会按照crontab执行计划任务<br>crontab 除了执行shell外还行执行其他脚本<br><code>*/1 * * * * /usr/bin/python /root/images/color.py</code> 如可以执行python解释器来执行python脚本，改脚本为执行color.py/1 minute</p><h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>Destination host unreachable <a href="https://blog.csdn.net/yzit0905/article/details/52748122" target="_blank" rel="noopener">https://blog.csdn.net/yzit0905/article/details/52748122</a></p><h2 id="ref"><a href="#ref" class="headerlink" title="ref"></a>ref</h2><p>知乎上关于mongodb backup的文章<br><a href="https://zhuanlan.zhihu.com/p/29809036" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/29809036</a></p><p>github上自动备份mongo的脚本<br><a href="https://github.com/micahwedemeyer/automongobackup/blob/master/src/automongobackup.sh" target="_blank" rel="noopener">https://github.com/micahwedemeyer/automongobackup/blob/master/src/automongobackup.sh</a></p><p>mongodb压缩，过去需要额外执行压缩命令，3.2引入了–gzip<br><a href="https://www.cnblogs.com/xuliuzai/p/9594138.html" target="_blank" rel="noopener">https://www.cnblogs.com/xuliuzai/p/9594138.html</a></p><p>mongo官方文章，存档与压缩<br><a href="https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools" target="_blank" rel="noopener">https://www.mongodb.com/blog/post/archiving-and-compression-in-mongodb-tools</a></p><p>来自linux公社，rsync实现文件同步配置与使用<br><a href="https://www.linuxidc.com/Linux/2012-10/71704.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2012-10/71704.htm</a></p><p>来自linux公社，rsync实现文件同步配置排除故障<br><a href="https://www.linuxidc.com/Linux/2012-10/71705.htm" target="_blank" rel="noopener">https://www.linuxidc.com/Linux/2012-10/71705.htm</a></p><p>! rsync 使用详解<br><a href="https://www.atlantic.net/hipaa-compliant-cloud-storage/how-to-setup-rsync-daemon-linux-server/" target="_blank" rel="noopener">https://www.atlantic.net/hipaa-compliant-cloud-storage/how-to-setup-rsync-daemon-linux-server/</a></p><p>rsync 使用详解 相当于上一片的中文版<br><a href="https://segmentfault.com/a/1190000000444614" target="_blank" rel="noopener">https://segmentfault.com/a/1190000000444614</a><br>wiki关于xinted文章<br><a href="https://en.wikipedia.org/wiki/Xinetd" target="_blank" rel="noopener">https://en.wikipedia.org/wiki/Xinetd</a></p><p>20个crontab的用例,常见写法与基本命令<br><a href="https://www.jianshu.com/p/d93e2b177814" target="_blank" rel="noopener">https://www.jianshu.com/p/d93e2b177814</a></p><p>crontab语法辅助工具<br><a href="https://crontab.guru/#52_0-23_*_*_*" target="_blank" rel="noopener">https://crontab.guru/#52_0-23_*_*_*</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>代码动态演示工具</title>
+      <link href="/2018/11/08/%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%80%81%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/"/>
+      <url>/2018/11/08/%E4%BB%A3%E7%A0%81%E5%8A%A8%E6%80%81%E6%BC%94%E7%A4%BA%E5%B7%A5%E5%85%B7/</url>
+      
+        <content type="html"><![CDATA[<p>代码动态演示工具，对命令行逐行表现力很好。<br><a href="https://glorious.codes/demo" target="_blank" rel="noopener">https://glorious.codes/demo</a></p><p>早一年我还很倾向使用样式结构简单的系统，因为可以照顾到性能低的设备和一些兼容性不好的浏览器。<br>但是后来看到华盛顿邮报等网站的图表后，开始反思，图表动画的信息量更大，具有文字不具有的表现力。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
